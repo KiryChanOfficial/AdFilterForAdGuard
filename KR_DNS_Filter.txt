@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 2.0.1  
+! Version: 2.0.4  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2024-12-13T23:18:09+09:00  
+! Last modified: 2025-03-02T21:52:06+09:00  
  
 ! 快手相关服务  
 !
@@ -53,7 +53,12 @@
 ||mobads.baidu.com^
 ||mobads-logs.baidu.com^
 ||nadvideo*.baidu.com^
+||union.baidu.com^
 ||wn.pos.baidu.com^
+
+! 哔哩哔哩开屏广告
+!
+||broadcast.chat.bilibili.com^
  
 ! 微博相关服务  
 !
@@ -66,7 +71,6 @@
  
 ! 腾讯相关服务  
 !
-||*.video.qq.com^
 ||ad.qq.com^
 ||appcfg.v.qq.com^
 ||bk.info.zb.qq.com^
@@ -108,7 +112,7 @@
 ||wq.jd.com^
 ||xlog.jd.com^
  
-! 字节跳动、穿山甲相关服务  
+! 穿山甲广告平台  
 !
 ||csjplatform.com^
 ||pangolin*.com^
@@ -120,11 +124,26 @@
 ||cdn-new-ad.wtzw.com.g4.bdydns.com^
 ||cdn-new-ad.wtzw.com^
 ||qm989.com^
+||s.peplle.cn^
  
 ! 友盟和数字联盟  
 !
 ||shuzilm.cn^
 ||umeng.com^
+ 
+! VIVO广告  
+!
+||risk-fp-openapi.vivo.com.cn^
+||ssp.vivo.com.cn^
+
+! 佳投广告  
+!
+||adxvip.com^
+||benshar.com^
+||jiaads.com^
+||jiaadsx.com^
+||jiatoutrade.com^
+||sltxantonline.com^
  
 ! 其他未分类  
 !
