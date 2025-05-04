@@ -19,11 +19,16 @@
 > 友盟 & 极光推送 & 数字联盟  
 > 腾讯广告服务 & 腾讯崩溃日志分析平台  
 
-## 仓库地址  
-- [https://github.com/KiryChanOfficial/AdFilterForAdGuard](https://github.com/KiryChanOfficial/AdFilterForAdGuard)  
-> 您可以到此仓库提交您的反馈，虽然我不一定采纳，但一定会回复你。  
+## 重要通知  
+由于个人原因已不再使用AdGuard且部分拦截规则搜集自网络，所以本订阅地址更新频率和拦截准确性将进一步降低，如果您有订阅规则分享或规则有问题欢迎您提交issue。  
+
+- [点此进入GitHub](https://github.com/KiryChanOfficial/AdFilterForAdGuard)  
  
 ## 更新记录：  
+- 2025.05.04 **☆日常更新**  
+> 已删除用户 [qq5460168
+](https://github.com/KiryChanOfficial/AdFilterForAdGuard/issues/3) 反馈的链接。  
+
 - 2025.03.20 **★日常更新**  
 > 解决`京东APP`异常载入/无法载入  
 > 新增`OPPO天气/浏览器广告`（收集自**酷安用户[@皮城的小鳄鱼](https://www.coolapk.com/feed/62763861)**）  

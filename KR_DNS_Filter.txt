@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 2.0.5  
+! Version: 2.0.51  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-03-20T21:55:03+09:00  
+! Last modified: 2025-05-04T19:35:04+08:00  
  
 ! 快手相关服务  
 !
@@ -177,5 +177,4 @@
 ||unioncom.cc^
 ||wi-fi.cn^
 ||yousuoweiedu.com^
-||yximgs.com^
 ||zhonglianhuashu.com^
