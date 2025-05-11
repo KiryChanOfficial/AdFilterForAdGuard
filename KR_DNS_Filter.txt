@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 2.0.51  
+! Version: 2.0.6  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-05-04T19:35:04+08:00  
+! Last modified: 2025-05-11T13:39:12+08:00  
  
 ! 快手相关服务  
 !
@@ -130,8 +130,16 @@
  
 ! VIVO广告  
 !
+||adsdk.vivo.com.cn^
 ||risk-fp-openapi.vivo.com.cn^
 ||ssp.vivo.com.cn^
+
+! 趣盟广告
+!
+||jiangpan.net^
+||jiangpankyy.com^
+||jietuhb.com^
+||qttunion.com^
 
 ! OPPO浏览器/天气广告  
 !
@@ -166,11 +174,12 @@
 ||getui.com^
 ||hubcloud.com.cn^
 ||mon.changyou.com^
-||sentry.io^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.open.phone.igexin.com^
+||sentry.io^
 ||sm.cn^
 ||static.lm-a.zblb.sm.cn^
+||t-dsp.pinduoduo.com^
 ||telecome.cn^
 ||transcosmos-cn.com^
 ||ubixioe.com^
