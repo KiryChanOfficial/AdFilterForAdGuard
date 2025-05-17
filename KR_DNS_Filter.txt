@@ -1,14 +1,95 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 2.0.6  
+! Version: 3.0  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-05-11T13:39:12+08:00  
+! Last modified: 2025-05-17T09:26:39+08:00  
  
+! 白名单  
+@@||h5vv6.video.qq.com^
+@@||wx.qlogo.cn^
+@@||wxapp.tc.qq.com^
+@@||waimai-guide.ele.me^
+@@||pica.zhimg.com
+@@||picx.zhimg.com
+@@||pic1.zhimg.com
+
+! 阿里、淘宝相关服务  
+||*adashx.ut.taobao.com^
+||adashbc.ut.taobao.com^
+||adashx.m.taobao.com.w.kunlunhuf.com^
+||adashxgc.ut.taobao.com^
+||audid-api.taobao.com^
+||baichuan-sdk.alicdn.com.w.cdngslb.com^
+||baichuan-sdk.alicdn.com^
+||baichuan-sdk.taobao.com^
+||h-adashx.ut.taobao.com^
+||ip.taobao.com^
+||tanx.com^
+||volces.com^
+||wcp.taobao.com^
+
+! 腾讯相关服务  
+||a.ac.qq.com^
+||ad.qq.com^
+||appcfg.v.qq.com^
+||bk.info.zb.qq.com^
+||bugly.qq.com^
+||e.qq.com^
+||gdt.qq.com^
+||guid.tpns.tencent.com
+||img.gamecenter.qq.com^
+||info.zb.qq.com^
+||kde.qq.com^
+||mtt.eve.mdt.qq.com^
+||pgdt.gtimg.cn^
+||pgdt.ugdtimg.com^
+||photovideo-circle.photo.qq.com^
+||prewxacode.wxqcloud.qq.com.cn^
+||qzs.gdtimg.com^
+||sdk.e.qq.com^
+||v*.gdt.qq.com^
+||vv.video.qq.com^
+||vweixinthumb.tc.qq.com^
+||wuji.video.qq.com^
+||wxa.wxs.qq.com^
+||xj.gtimg.cn^
+||tdid.m.qq.com^
+||as.yyymvp.com^
+||obd.gtimg.com^
+||aeventlog.beacon.qq.com
+||wxsmw.wxs.qq.com
+
+! 百度相关服务  
+||als.baidu.com^
+||api.touch-mobile.baidu.com^
+||api.touch-moblie.com^
+||bes-mtj.baidu.com^
+||bj-a.bcebos.com.n.shifen.com^
+||browserkernel.baidu.com^
+||cdbaidu.com^
+||esm.baidu.com^
+||factors.sofire.baidu.com^
+||fclog.baidu.com^
+||feed-image.baidu.com^
+||fxgate.baidu.com^
+||hmma.baidu.com^
+||integralwall.baidu.com^
+||luimg.baidu.com^
+||mbd.wshifen.com^
+||mobads-logs.baidu.com^
+||mobads.baidu.com^
+||nadvideo*.baidu.com^
+||nadvideo2.baidu.com^
+||nsclick.baidu.com^
+||sp0.baidu.com^
+||tieba-ares.cdn.bcebos.com^
+||union.baidu.com^
+||wn.pos.baidu.com^
+
 ! 快手相关服务  
-!
+||api-p*.yksdks.com^
 ||e.kuaishou.com^
-||frontend-perf-service.e.kuaishou.com^
 ||kuaishouad.cn^
 ||log-sdk.ksapisrv.com^
 ||open.e.kuaishou.cn^
@@ -19,82 +100,37 @@
 ||p*-lm.adukwai.com^
 ||v4-lm.adukwai.com^
 ||w1.kskwai.com^
- 
-! 阿里、淘宝相关服务  
-!
-||*adashx.ut.taobao.com^
-||adashbc.ut.taobao.com^
-||adashx.m.taobao.com.w.kunlunhuf.com^
-||adashxgc.ut.taobao.com^
-||audid-api.taobao.com^
-||baichuan-sdk.alicdn.com.w.cdngslb.com^
-||baichuan-sdk.alicdn.com^
-||baichuan-sdk.taobao.com^
-||ip.taobao.com^
-||tanx.com^
-||volces.com^
-||wcp.taobao.com^
- 
-! 百度相关服务  
-!
-||als.baidu.com^
-||api.touch-mobile.baidu.com^
-||bes-mtj.baidu.com^
-||bj-a.bcebos.com.n.shifen.com^
-||cdbaidu.com^
-||esm.baidu.com^
-||fclog.baidu.com^
-||feed-image.baidu.com^
-||fxgate.baidu.com^
-||hmma.baidu.com^
-||integralwall.baidu.com^
-||luimg.baidu.com^
-||mbd.wshifen.com^
-||mobads.baidu.com^
-||mobads-logs.baidu.com^
-||nadvideo*.baidu.com^
-||union.baidu.com^
-||wn.pos.baidu.com^
 
-! 哔哩哔哩开屏广告
-!
-||broadcast.chat.bilibili.com^
- 
 ! 微博相关服务  
-!
 ||ad.us.sinaimg.cn^
 ||ad.weibo.com^
 ||biz.weibo.com^
 ||fund.sina.com.cn^
 ||newsapi.sina.cn^
 ||uve.weibo.com^
- 
-! 腾讯相关服务  
-!
-||ad.qq.com^
-||appcfg.v.qq.com^
-||bk.info.zb.qq.com^
-||bugly.qq.com^
-||e.qq.com^
-||gdt.qq.com^
-||img.gamecenter.qq.com^
-||info.zb.qq.com^
-||kde.qq.com^
-||mtt.eve.mdt.qq.com^
-||pgdt.gtimg.cn^
-||pgdt.ugdtimg.com^
-||photovideo-circle.photo.qq.com^
-||prewxacode.wxqcloud.qq.com.cn^
-||qzs.gdtimg.com^
-||v*.gdt.qq.com^
-||vv.video.qq.com^
-||vweixinthumb.tc.qq.com^
-||wuji.video.qq.com^
-||wxa.wxs.qq.com^
-||xj.gtimg.cn^
- 
+
+! 哔哩哔哩开屏广告  
+||broadcast.chat.bilibili.com^
+
+! 七猫小说相关服务  
+||cdn-new-ad.wtzw.com.g4.bdydns.com^
+||cdn-new-ad.wtzw.com^
+||qm989.com^
+||s.peplle.cn^
+
+! 穿山甲广告平台  
+||aiclk.com^
+||csjplatform.com^
+||ctobsnssdk.com^
+||log.snssdk.com^
+||mssdk.volces.com^
+||pangolin*.com^
+||pglstatp-toutiao.com^
+||ugsdk.cn^
+||vas-lf-x.snssdk.com^
+||webcast-open.douyin.com^
+
 ! 京东相关服务  
-!
 ||addata.jd.com^
 ||ccc-x.jd.com^
 ||dsp-x.jd.com^
@@ -108,82 +144,120 @@
 ||wl.jd.com^
 ||wq.jd.com^
 ||xlog.jd.com^
- 
-! 穿山甲广告平台  
-!
-||csjplatform.com^
-||pangolin*.com^
-||pglstatp-toutiao.com^
-||webcast-open.douyin.com^
- 
-! 七猫小说相关服务  
-!
-||cdn-new-ad.wtzw.com.g4.bdydns.com^
-||cdn-new-ad.wtzw.com^
-||qm989.com^
-||s.peplle.cn^
- 
-! 友盟和数字联盟  
-!
-||shuzilm.cn^
-||umeng.com^
- 
-! VIVO广告  
-!
-||adsdk.vivo.com.cn^
-||risk-fp-openapi.vivo.com.cn^
-||ssp.vivo.com.cn^
 
-! 趣盟广告
-!
+! 知乎广告  
+||klink.volceapplog.com^
+||open.snssdk.com^
+||static.zhihu.com^
+||tobapplog.volceapplog.com^
+||toblog.volceapplog.com^
+||vdn*.vzuu.com^
+
+! 喜马拉雅  
+||a.qchannel03.cn^
+||abroad-sdk-push.dutils.com^
+||adse.ximalaya.com^
+||api-c.dutils.com^
+||api-exc.hiaiabc.com^
+||api-p4.mobsurl.com^
+||appstoreort-stsdk.vivo.com.cn^
+||b.qchannel03.cn^
+||bjb.openstorage.cn^
+||cache-verify.dutils.com^
+||cdn-api-verify.mob.com^
+||collector.ximalaya.com^
+||gslbtx.ximalaya.com^
+||log-verify.dutils.com^
+||log-verify.mob.com^
+||m-adnet.dutils.com^
+||m-adnet.hiaiabc.com^
+||m-mpl.hiaiabc.com^
+||mres.ximalaya.com^
+||pv.sohu.com^
+||sysdk.cl2009.com^
+
+! 极光推送  
+||ali-stats.jpush.cn^
+||stats.jpush.cn^
+||status-ipv6.jpush.cn^
+
+! 广告联盟  
 ||jiangpan.net^
 ||jiangpankyy.com^
 ||jietuhb.com^
 ||qttunion.com^
-
-! OPPO浏览器/天气广告  
-!
-||adx.ads.heytapmobi.com^
-||event.dc.oppomobile.com^
-||cc-algo-cn.heytapimage.com^
-||adsfs.heytapimage.com^
-||cc-img-cn.heytapimage.com^
-||ibrowser.feeds.heytapmobi.com^
-
-! 佳投广告  
-!
 ||adxvip.com^
 ||benshar.com^
 ||jiaads.com^
 ||jiaadsx.com^
 ||jiatoutrade.com^
 ||sltxantonline.com^
- 
+||maplehaze.cn^
+
+! 厂商广告  
+||adx.ads.heytapmobi.com^
+||event.dc.oppomobile.com^
+||cc-algo-cn.heytapimage.com^
+||adsfs.heytapimage.com^
+||cc-img-cn.heytapimage.com^
+||ibrowser.feeds.heytapmobi.com^
+||adreq.vivo.com.cn^
+||adsdk.vivo.com.cn^
+||browser.vivo.com.cn^
+||risk-fp-openapi.vivo.com.cn^
+||ssp.vivo.com.cn^
+
 ! 其他未分类  
-!
 ||1rtb.net^
 ||3yoqu.com^
 ||6sense.com^
+||adx-data.yfanads.com^
 ||ampproject.org^
 ||anythinktech.com^
+||api.douban.com^
+||apmplus.volces.com^
 ||beizi.biz^
+||billowlink.com^
 ||c.sayhi.360.cn^
 ||cn-fp.apitd.net^
+||dmugc-cn.domobcdn.com^
+||dspsdk.pinduoduo.com^
+||ems.youku.com^
 ||etoote.com^
 ||g1.tagtic.com^
 ||getui.com^
+||gosspublic.alicdn.com^
 ||hubcloud.com.cn^
+||ipm.atm.youku.com^
+||log-stats.weathercn.com
 ||mon.changyou.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||p*-pro.a.yximgs.com^
+||pgdt.ugdtimg.com
+||pic8.iqiyipic.com^
+||pull-*-*.ixigua.com^
+||s*voicecloud.cn^
+||sdk-ab-config.qquanquan.com^
+||sdk-open-phone.getui.com^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.open.phone.igexin.com^
+||sdktmp.hubcloud.com.cn
 ||sentry.io^
+||shuzilm.cn^
 ||sm.cn^
+||static-s.iqiyi.com^
 ||static.lm-a.zblb.sm.cn^
 ||t-dsp.pinduoduo.com^
 ||telecome.cn^
 ||transcosmos-cn.com^
 ||ubixioe.com^
+||uczzd.cn^
+||ulog-sdk.gifshow.com^
+||umeng.com^
 ||unioncom.cc^
+||v*-default.ixigua.com^
+||voiceads.cn^
 ||wi-fi.cn^
+||youjingnetwork.com^
 ||yousuoweiedu.com^
 ||zhonglianhuashu.com^
