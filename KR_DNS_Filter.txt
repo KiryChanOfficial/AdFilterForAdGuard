@@ -1,18 +1,18 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 3.0  
+! Version: 3.0.1  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-05-17T09:26:39+08:00  
+! Last modified: 2025-06-21T18:35:02+08:00  
  
 ! 白名单  
 @@||h5vv6.video.qq.com^
+@@||pic1.zhimg.com^
+@@||pica.zhimg.com^
+@@||picx.zhimg.com^
+@@||waimai-guide.ele.me^
 @@||wx.qlogo.cn^
 @@||wxapp.tc.qq.com^
-@@||waimai-guide.ele.me^
-@@||pica.zhimg.com
-@@||picx.zhimg.com
-@@||pic1.zhimg.com
 
 ! 阿里、淘宝相关服务  
 ||*adashx.ut.taobao.com^
@@ -32,33 +32,34 @@
 ! 腾讯相关服务  
 ||a.ac.qq.com^
 ||ad.qq.com^
+||adnet.qq.com^
+||aeventlog.beacon.qq.com^
 ||appcfg.v.qq.com^
+||as.yyymvp.com^
 ||bk.info.zb.qq.com^
 ||bugly.qq.com^
 ||e.qq.com^
 ||gdt.qq.com^
-||guid.tpns.tencent.com
+||guid.tpns.tencent.com^
 ||img.gamecenter.qq.com^
 ||info.zb.qq.com^
 ||kde.qq.com^
 ||mtt.eve.mdt.qq.com^
+||obd.gtimg.com^
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
 ||photovideo-circle.photo.qq.com^
 ||prewxacode.wxqcloud.qq.com.cn^
 ||qzs.gdtimg.com^
 ||sdk.e.qq.com^
+||tdid.m.qq.com^
 ||v*.gdt.qq.com^
 ||vv.video.qq.com^
 ||vweixinthumb.tc.qq.com^
 ||wuji.video.qq.com^
 ||wxa.wxs.qq.com^
+||wxsmw.wxs.qq.com^
 ||xj.gtimg.cn^
-||tdid.m.qq.com^
-||as.yyymvp.com^
-||obd.gtimg.com^
-||aeventlog.beacon.qq.com
-||wxsmw.wxs.qq.com
 
 ! 百度相关服务  
 ||als.baidu.com^
@@ -113,8 +114,11 @@
 ||broadcast.chat.bilibili.com^
 
 ! 七猫小说相关服务  
+||api-adx.52qumao.com^
+||api-cfg.52qumao.com^
 ||cdn-new-ad.wtzw.com.g4.bdydns.com^
 ||cdn-new-ad.wtzw.com^
+||checkip.amazonaws.com^
 ||qm989.com^
 ||s.peplle.cn^
 
@@ -195,15 +199,19 @@
 ||maplehaze.cn^
 
 ! 厂商广告  
-||adx.ads.heytapmobi.com^
-||event.dc.oppomobile.com^
-||cc-algo-cn.heytapimage.com^
-||adsfs.heytapimage.com^
-||cc-img-cn.heytapimage.com^
-||ibrowser.feeds.heytapmobi.com^
+||*.ads.heytapmobi.com^
+||ad.mi.com^
 ||adreq.vivo.com.cn^
 ||adsdk.vivo.com.cn^
+||adsfs.heytapimage.com^
+||adx.ads.heytapmobi.com^
 ||browser.vivo.com.cn^
+||cc-algo-cn.heytapimage.com^
+||cc-img-cn.heytapimage.com^
+||e.mi.com^
+||event.dc.oppomobile.com^
+||ibrowser.feeds.heytapmobi.com^
+||pull.yximgs.com^
 ||risk-fp-openapi.vivo.com.cn^
 ||ssp.vivo.com.cn^
 
@@ -229,11 +237,11 @@
 ||gosspublic.alicdn.com^
 ||hubcloud.com.cn^
 ||ipm.atm.youku.com^
-||log-stats.weathercn.com
+||log-stats.weathercn.com^
 ||mon.changyou.com^
 ||p*-ecom-qualification-sign.ecombdimg.com^
 ||p*-pro.a.yximgs.com^
-||pgdt.ugdtimg.com
+||pgdt.ugdtimg.com^
 ||pic8.iqiyipic.com^
 ||pull-*-*.ixigua.com^
 ||s*voicecloud.cn^
@@ -241,7 +249,7 @@
 ||sdk-open-phone.getui.com^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.open.phone.igexin.com^
-||sdktmp.hubcloud.com.cn
+||sdktmp.hubcloud.com.cn^
 ||sentry.io^
 ||shuzilm.cn^
 ||sm.cn^
