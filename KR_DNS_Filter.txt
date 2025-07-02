@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告。但请注意，由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 3.0.1  
+! Version: 3.0.2  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-06-21T18:35:02+08:00  
+! Last modified: 2025-07-02T12:51:33+08:00  
  
 ! 白名单  
 @@||h5vv6.video.qq.com^
@@ -112,15 +112,24 @@
 
 ! 哔哩哔哩开屏广告  
 ||broadcast.chat.bilibili.com^
+||show.bilibili.com^
 
 ! 七猫小说相关服务  
 ||api-adx.52qumao.com^
 ||api-cfg.52qumao.com^
+||api-cfg.wtzw.com^
+||api-ks.wtzw.com^
+||api-nps.wtzw.com^
 ||cdn-new-ad.wtzw.com.g4.bdydns.com^
 ||cdn-new-ad.wtzw.com^
+||cgcr.wtzw.com^
 ||checkip.amazonaws.com^
+||drs.wtzw.com^
+||mkt.wtzw.com^
+||qm-ab.wtzw.com^
 ||qm989.com^
 ||s.peplle.cn^
+||t-cfg.wtzw.com^
 
 ! 穿山甲广告平台  
 ||aiclk.com^
@@ -219,24 +228,36 @@
 ||1rtb.net^
 ||3yoqu.com^
 ||6sense.com^
+||ad-drs.52qumao.com^
+||adsmind.ugdtimg.com^
 ||adx-data.yfanads.com^
 ||ampproject.org^
 ||anythinktech.com^
 ||api.douban.com^
+||api.verify.mob.com^
 ||apmplus.volces.com^
 ||beizi.biz^
 ||billowlink.com^
 ||c.sayhi.360.cn^
 ||cn-fp.apitd.net^
+||dfe-mic.mob.com^
 ||dmugc-cn.domobcdn.com^
 ||dspsdk.pinduoduo.com^
+||dutils.com^
 ||ems.youku.com^
 ||etoote.com^
+||g-api.kwai.com^
 ||g1.tagtic.com^
 ||getui.com^
 ||gosspublic.alicdn.com^
+||httpdns.alicdn.com^
+||httpdns.bcelive.com^
+||httpdns.bcelive.com^
 ||hubcloud.com.cn^
 ||ipm.atm.youku.com^
+||ir-sdk.dun.163.com^
+||ir-sdk.dun.163yun.com^
+||lf-cdn-tos.bytescm.com^
 ||log-stats.weathercn.com^
 ||mon.changyou.com^
 ||p*-ecom-qualification-sign.ecombdimg.com^
@@ -249,6 +270,7 @@
 ||sdk-open-phone.getui.com^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.open.phone.igexin.com^
+||sdkoptedge.chinanetcenter.com^
 ||sdktmp.hubcloud.com.cn^
 ||sentry.io^
 ||shuzilm.cn^
