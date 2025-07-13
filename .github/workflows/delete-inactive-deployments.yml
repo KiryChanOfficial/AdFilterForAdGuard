@@ -1,18 +1,16 @@
-name: Delete Inactive Deployments
+name: Force Delete All Deployments (Set inactive if needed)
 
 on:
-  workflow_dispatch:  # 允许手动在网页 UI 触发
+  workflow_dispatch:  # 手动触发
 
 jobs:
   cleanup:
-    name: Delete Inactive Deployments
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: List Deployments
+      - name: List deployments
         id: list_deployments
         uses: octokit/request-action@v2.x
         with:
@@ -20,22 +18,42 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Delete Inactive Deployments
+      - name: Process and force-delete deployments
         run: |
-          echo "Checking for inactive deployments..."
-          echo '${{ steps.list_deployments.outputs.data }}' | jq -c '.[]' | while read -r deployment; do
-            id=$(echo "$deployment" | jq '.id')
-            inactive_at=$(echo "$deployment" | jq '.inactive_at')
-            environment=$(echo "$deployment" | jq -r '.environment')
-            echo "Found Deployment ID: $id | Environment: $environment | Inactive at: $inactive_at"
+          echo "Processing deployments..."
 
-            if [ "$inactive_at" != "null" ]; then
-              echo "Deleting deployment ID: $id"
-              curl -v -X DELETE \
+          deployments=$(echo '${{ steps.list_deployments.outputs.data }}' | jq -c '.[]')
+
+          if [ -z "$deployments" ]; then
+            echo "No deployments found."
+            exit 0
+          fi
+
+          for deployment in $deployments; do
+            id=$(echo "$deployment" | jq '.id')
+            inactive_at=$(echo "$deployment" | jq -r '.inactive_at')
+            environment=$(echo "$deployment" | jq -r '.environment')
+            sha=$(echo "$deployment" | jq -r '.sha')
+
+            echo "➡️ Deployment ID: $id | Environment: $environment | Inactive at: $inactive_at"
+
+            if [ "$inactive_at" = "null" ]; then
+              echo "⚠️ Deployment $id is still active — setting it to inactive..."
+
+              curl -s -X POST \
                 -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github+json" \
-                https://api.github.com/repos/${{ github.repository }}/deployments/$id
-            else
-              echo "Deployment $id is still active; skipping."
+                https://api.github.com/repos/${{ github.repository }}/deployments/$id/statuses \
+                -d '{"state":"inactive"}'
+              
+              sleep 2  # 给 GitHub 一点时间更新状态
             fi
+
+            echo "🗑 Deleting deployment ID: $id ..."
+            curl -s -X DELETE \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/deployments/$id
           done
+
+          echo "✅ All possible deployments processed."
