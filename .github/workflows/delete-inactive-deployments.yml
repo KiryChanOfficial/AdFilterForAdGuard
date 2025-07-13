@@ -26,7 +26,7 @@ jobs:
           echo '${{ steps.list_deployments.outputs.data }}' | jq -c '.[]' | while read -r deployment; do
             id=$(echo "$deployment" | jq '.id')
             inactive_at=$(echo "$deployment" | jq '.inactive_at')
-            if [ "$inactive_at" != "null" ]; then
+            echo "Deployment ID: $id, inactive_at: $inactive_at"
               echo "Deleting inactive deployment ID: $id"
               curl -X DELETE \
                 -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
