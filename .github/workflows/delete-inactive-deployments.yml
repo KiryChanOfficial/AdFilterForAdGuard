@@ -1,59 +1,51 @@
-name: Force Delete All Deployments (Set inactive if needed)
+name: Force Delete All Deployments (Reliable)
 
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
 
 jobs:
   cleanup:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: List deployments
-        id: list_deployments
-        uses: octokit/request-action@v2.x
-        with:
-          route: GET /repos/${{ github.repository }}/deployments
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Process and force-delete deployments
+      - name: Get deployments via GitHub API
+        id: get_deployments
         run: |
-          echo "Processing deployments..."
+          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github+json" \
+               https://api.github.com/repos/${{ github.repository }}/deployments > deployments.json
 
-          deployments=$(echo '${{ steps.list_deployments.outputs.data }}' | jq -c '.[]')
+          count=$(jq length deployments.json)
+          echo "Found $count deployments."
 
-          if [ -z "$deployments" ]; then
-            echo "No deployments found."
+          if [ "$count" -eq 0 ]; then
+            echo "✅ No deployments to delete."
             exit 0
           fi
 
-          for deployment in $deployments; do
-            id=$(echo "$deployment" | jq '.id')
-            inactive_at=$(echo "$deployment" | jq -r '.inactive_at')
-            environment=$(echo "$deployment" | jq -r '.environment')
-            sha=$(echo "$deployment" | jq -r '.sha')
+      - name: Mark deployments inactive and delete
+        run: |
+          for id in $(jq '.[].id' deployments.json); do
+            inactive_at=$(jq ".[] | select(.id == $id) | .inactive_at" deployments.json)
 
-            echo "➡️ Deployment ID: $id | Environment: $environment | Inactive at: $inactive_at"
+            echo "➡️ Deployment ID: $id | Inactive at: $inactive_at"
 
             if [ "$inactive_at" = "null" ]; then
-              echo "⚠️ Deployment $id is still active — setting it to inactive..."
-
+              echo "⚠️ Setting deployment $id to inactive..."
               curl -s -X POST \
                 -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github+json" \
-                https://api.github.com/repos/${{ github.repository }}/deployments/$id/statuses \
-                -d '{"state":"inactive"}'
-              
-              sleep 2  # 给 GitHub 一点时间更新状态
+                -d '{"state":"inactive"}' \
+                https://api.github.com/repos/${{ github.repository }}/deployments/$id/statuses
+              sleep 2
             fi
 
-            echo "🗑 Deleting deployment ID: $id ..."
+            echo "🗑 Deleting deployment $id..."
             curl -s -X DELETE \
               -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github+json" \
               https://api.github.com/repos/${{ github.repository }}/deployments/$id
           done
 
-          echo "✅ All possible deployments processed."
+      - name: Cleanup temp file
+        run: rm -f deployments.json
