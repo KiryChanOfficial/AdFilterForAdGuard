@@ -1,0 +1,36 @@
+name: Delete Inactive Deployments
+
+on:
+  workflow_dispatch:  # 允许手动在网页 UI 触发
+
+jobs:
+  cleanup:
+    name: Delete Inactive Deployments
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: List Deployments
+        id: list_deployments
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/${{ github.repository }}/deployments
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Delete Inactive Deployments
+        run: |
+          echo "Checking for inactive deployments..."
+          echo '${{ steps.list_deployments.outputs.data }}' | jq -c '.[]' | while read -r deployment; do
+            id=$(echo "$deployment" | jq '.id')
+            inactive_at=$(echo "$deployment" | jq '.inactive_at')
+            if [ "$inactive_at" != "null" ]; then
+              echo "Deleting inactive deployment ID: $id"
+              curl -X DELETE \
+                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github+json" \
+                https://api.github.com/repos/${{ github.repository }}/deployments/$id
+            fi
+          done
