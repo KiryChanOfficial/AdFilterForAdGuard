@@ -1,4 +1,4 @@
-name: Force Delete All Deployments (Reliable)
+name: Force Delete Deployments Using PAT
 
 on:
   workflow_dispatch:
@@ -11,29 +11,32 @@ jobs:
       - name: Get deployments via GitHub API
         id: get_deployments
         run: |
-          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          echo "📥 Fetching deployments from GitHub API..."
+
+          curl -s -H "Authorization: Bearer ${{ secrets.PAT_FOR_DELETE_DEPLOYMENT }}" \
                -H "Accept: application/vnd.github+json" \
                https://api.github.com/repos/${{ github.repository }}/deployments > deployments.json
 
           count=$(jq length deployments.json)
-          echo "Found $count deployments."
+          echo "📦 Found $count deployments."
 
           if [ "$count" -eq 0 ]; then
-            echo "✅ No deployments to delete."
+            echo "✅ No deployments found. Exiting."
             exit 0
           fi
 
-      - name: Mark deployments inactive and delete
+      - name: Mark and delete deployments using PAT
         run: |
+          echo "🚮 Starting deletion process..."
+
           for id in $(jq '.[].id' deployments.json); do
             inactive_at=$(jq ".[] | select(.id == $id) | .inactive_at" deployments.json)
-
             echo "➡️ Deployment ID: $id | Inactive at: $inactive_at"
 
             if [ "$inactive_at" = "null" ]; then
               echo "⚠️ Setting deployment $id to inactive..."
               curl -s -X POST \
-                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Authorization: Bearer ${{ secrets.PAT_FOR_DELETE_DEPLOYMENT }}" \
                 -H "Accept: application/vnd.github+json" \
                 -d '{"state":"inactive"}' \
                 https://api.github.com/repos/${{ github.repository }}/deployments/$id/statuses
@@ -42,10 +45,10 @@ jobs:
 
             echo "🗑 Deleting deployment $id..."
             curl -s -X DELETE \
-              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Authorization: Bearer ${{ secrets.PAT_FOR_DELETE_DEPLOYMENT }}" \
               -H "Accept: application/vnd.github+json" \
               https://api.github.com/repos/${{ github.repository }}/deployments/$id
           done
 
-      - name: Cleanup temp file
+      - name: Cleanup temp files
         run: rm -f deployments.json
