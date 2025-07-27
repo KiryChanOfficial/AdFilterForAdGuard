@@ -1,16 +1,11 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告，目前已覆盖极光推送服务、腾讯崩溃日志分析平台、OPPO/VIVO/小米在部分界面提供的广告、部分App内的某些广告以及一些常见的广告联盟。由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 3.1.01  
+! Version: 3.1.02  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-07-19T22:36:04+08:00  
+! Last modified: 2025-07-27T15:45:12+08:00  
 
 ! Last Updated  
-||123.184.198.22^
-||121.41.7.167^
-||120.26.63.182^
-||203.107.1.34^
-||images.pinduoduo.com^
 
 ! Whitelist  
 @@||h5vv6.video.qq.com^
@@ -24,12 +19,21 @@
 ! History Updates  
 ||*.ads.heytapmobi.com^
 ||*adashx.ut.taobao.com^
+||120.26.63.182^
+||121.41.7.167^
+||123.184.198.22^
 ||1rtb.net^
+||203.107.1.34^
+||2407:c080:1200:3ce:e607:8583:110e:6bf9^
+||2407:c080:1200:53d:b686:5a14:b3a7:22e4^
 ||3yoqu.com^
 ||6sense.com^
 ||a.ac.qq.com^
 ||a.qchannel03.cn^
+||a6-remad.qm989.com^
 ||abroad-sdk-push.dutils.com^
+||abtest.wtzw.com^
+||ad-drs-ipv6.52qumao.com^
 ||ad-drs.52qumao.com^
 ||ad.mi.com^
 ||ad.qq.com^
@@ -39,6 +43,7 @@
 ||adashx.m.taobao.com.w.kunlunhuf.com^
 ||adashxgc.ut.taobao.com^
 ||addata.jd.com^
+||adim.pinduoduo.com^
 ||adnet.qq.com^
 ||adreq.vivo.com.cn^
 ||adsdk.vivo.com.cn^
@@ -54,7 +59,9 @@
 ||als.baidu.com^
 ||ampproject.org^
 ||anythinktech.com^
+||api-adx.52qumao.com^
 ||api-c.dutils.com^
+||api-cfg.52qumao.com^
 ||api-cfg.wtzw.com^
 ||api-exc.hiaiabc.com^
 ||api-ks.wtzw.com^
@@ -74,6 +81,7 @@
 ||baichuan-sdk.alicdn.com.w.cdngslb.com^
 ||baichuan-sdk.alicdn.com^
 ||baichuan-sdk.taobao.com^
+||bdsp.x.jd.com^
 ||beizi.biz^
 ||benshar.com^
 ||bes-mtj.baidu.com^
@@ -117,6 +125,7 @@
 ||factors.sofire.baidu.com^
 ||fclog.baidu.com^
 ||feed-image.baidu.com^
+||fp-it.fengkongcloud.com^
 ||fund.sina.com.cn^
 ||fxgate.baidu.com^
 ||g-api.kwai.com^
@@ -133,6 +142,7 @@
 ||hubcloud.com.cn^
 ||ibrowser.feeds.heytapmobi.com^
 ||im-x.jd.com^
+||images.pinduoduo.com^
 ||img-x.jd.com^
 ||img.gamecenter.qq.com^
 ||img2.360buyimg.com^
@@ -157,6 +167,7 @@
 ||log-sdk.ksapisrv.com^
 ||log-stats.weathercn.com^
 ||log-verify.dutils.com^
+||log-verify.mob.com^
 ||log.snssdk.com^
 ||luimg.baidu.com^
 ||m-adnet.dutils.com^
@@ -185,6 +196,7 @@
 ||p*-lm.adkwai.com^
 ||p*-lm.adukwai.com^
 ||p*-pro.a.yximgs.com^
+||p*-sign.douyinpic.com^
 ||pangolin*.com^
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
@@ -209,6 +221,7 @@
 ||sdk.open.phone.igexin.com^
 ||sdkoptedge.chinanetcenter.com^
 ||sdktmp.hubcloud.com.cn^
+||search*.toutiaoapi.com^
 ||sentry.io^
 ||show.bilibili.com^
 ||shuzilm.cn^
@@ -230,6 +243,7 @@
 ||tieba-ares.cdn.bcebos.com^
 ||tobapplog.volceapplog.com^
 ||toblog.volceapplog.com^
+||tr.byteurl.cn^
 ||transcosmos-cn.com^
 ||ubixioe.com^
 ||uczzd.cn^
@@ -238,6 +252,7 @@
 ||umeng.com^
 ||union.baidu.com^
 ||unioncom.cc^
+||update.wtzw.com^
 ||uranus.jd.com^
 ||uve.weibo.com^
 ||v*-default.ixigua.com^
@@ -260,6 +275,7 @@
 ||wuji.video.qq.com^
 ||wxa.wxs.qq.com^
 ||wxsmw.wxs.qq.com^
+||xc.gdt.qq.com^
 ||xj.gtimg.cn^
 ||xlog.jd.com^
 ||youjingnetwork.com^
@@ -267,20 +283,3 @@
 ||zhonglianhuashu.com^
 
 ! WaitingForTheMerge  
-||2407:c080:1200:3ce:e607:8583:110e:6bf9^
-||2407:c080:1200:53d:b686:5a14:b3a7:22e4^
-||a6-remad.qm989.com^
-||abtest.wtzw.com^
-||ad-drs-ipv6.52qumao.com^
-||adim.pinduoduo.com^
-||api*.toutiaoapi.com^
-||api-adx.52qumao.com^
-||api-cfg.52qumao.com^
-||bdsp.x.jd.com^
-||fp-it.fengkongcloud.com^
-||log-verify.mob.com^
-||p*-sign.douyinpic.com^
-||search*.toutiaoapi.com^
-||tr.byteurl.cn^
-||update.wtzw.com^
-||xc.gdt.qq.com^

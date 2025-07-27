@@ -18,6 +18,9 @@
 > 3. 部分app在使用此规则首次打开时可能会功能异常，关闭重新进入app等几秒再打开拦截并重新进入app即可。
 
 ## 更新记录：  
+- 2025.07.27  
+> 已临时移除该拦截项 `api*.toutiaoapi.com` ，此问题可能导致导致iOS平台今日头条无法正常。感谢用户 [qq5460168](https://github.com/KiryChanOfficial/AdFilterForAdGuard/issues/4) 的反馈。
+
 - 2025.07.19  
 > 更新了部分规则。  
 
