@@ -1,11 +1,13 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告，目前已覆盖极光推送服务、腾讯崩溃日志分析平台、OPPO/VIVO/小米在部分界面提供的广告、部分App内的某些广告以及一些常见的广告联盟。由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 3.1.02  
+! Version: 20250801P  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-07-27T15:45:12+08:00  
+! Last modified: 2025-08-03T23:20:00+08:00  
 
 ! Last Updated  
+||browserconf.vivo.com.cn^
+||browserstatic.vivo.com.cn^
 
 ! Whitelist  
 @@||h5vv6.video.qq.com^
