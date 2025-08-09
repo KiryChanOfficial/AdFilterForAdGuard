@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard Ex  
 ! Description: 规则来自各大广告过滤规则，整合后可能出现不稳定情况，酌情启用。  
-! Version: 20250801N  
+! Version: 20250802N  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-08-03T23:20:00+08:00  
+! Last modified: 2025-08-10T23:20:00+08:00  
 
 @@||*-cf.xvideos-cdn.com^
 @@||*-open-sign.byteimg.com^
@@ -17246,7 +17246,6 @@
 ||qloer.com^
 ||qlonglong.com^
 ||qm-ab.wtzw.com^
-||qm-data.wtzw.com^
 ||qm989.com^
 ||qmfcybwbf12.com^
 ||qmfcybwbf16.com^
