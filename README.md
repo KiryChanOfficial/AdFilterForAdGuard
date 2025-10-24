@@ -11,7 +11,7 @@
 
 ## 重要通知  
 1. 由于个人原因已不再使用AdGuard且部分拦截规则搜集自网络，所以本订阅地址更新频率和拦截准确性将进一步降低。  
-2. 于2025.08.03新增一个独立订阅规则，此规则收集自其他Github仓库，整合后极易出现问题，请谨慎使用，仓库信息如下。  
+2. 于2025.08.03新增一个独立订阅规则，此规则收集自其他Github仓库并进行去重等操作，请酌情使用，仓库信息如下。  
     > [AWAvenue 秋风广告规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)  
     > [不是DD啊](https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt)  
     > [大萌主](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)  
@@ -28,6 +28,9 @@
     > 3. 部分app在使用此规则首次打开时可能会功能异常，关闭重新进入app等几秒再打开拦截并重新进入app即可。
 
 ## 更新记录：  
+- 2025.10.24  
+    > 1. 扩展规则更新  
+
 - 2025.08.21  
     > 1. 再次更新两条有关`七猫小说`的拦截规则。  
 
