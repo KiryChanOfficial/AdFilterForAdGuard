@@ -7,6 +7,7 @@
 
 ## 订阅链接:  
 `https://ad.kirychan.com/KR_DNS_Filter.txt`  
+`https://ad.kirychan.com/QuantunultX.conf`  
 
 ## 重要通知  
 1. 由于个人原因已不再使用AdGuard且部分拦截规则搜集自网络，所以本订阅地址更新频率和拦截准确性将进一步降低。  
@@ -30,7 +31,8 @@
 - 2025.10.29
     > 1. 将扩展规则整合进主规则  
 	> 2. 拦截规则更新  
-	> 3. 转换并添加Shadowrocket规则（测试）  
+    > 3. 新增Quantumult X分流规则（测试），黑名单由主规则转换  
+
 - 2025.10.24  
     > 1. 扩展规则更新  
 
