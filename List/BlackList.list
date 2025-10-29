@@ -136,7 +136,7 @@ DOMAIN,11.271y.com
 DOMAIN,11.hydcd.com
 DOMAIN,1106.l.mob.com
 DOMAIN,112-6-231-57.volcsirius.com
-DOMAIN,113-116-50-196-yf81c2bb.nodeedge.cn:9512
+DOMAIN,113-116-50-196-yf81c2bb.nodeedge.cn
 DOMAIN,113.o8b3nr.top
 DOMAIN,116f300001-0.m.ctrmi.cn
 DOMAIN,1178.shucong.com
@@ -338,8 +338,6 @@ DOMAIN,2345.oadz.com
 DOMAIN,2345api.dftoutiao.com
 DOMAIN,2345apicode.dftoutiao.com
 DOMAIN,2404mc.2tsfdcp.com
-DOMAIN,2407:c080:1200:3ce:e607:8583:110e:6bf9
-DOMAIN,2407:c080:1200:53d:b686:5a14:b3a7:22e4
 DOMAIN,2409-8754-8310-35--3.volcsirius.com
 DOMAIN,2409-8c6a-b011-23-800-0-0-f.volcsiriusbd.com
 DOMAIN,2417_s.gw.irs03.com
@@ -1017,7 +1015,6 @@ DOMAIN,DOMAIN-KEYWORD,hoisin.coocaa.com
 DOMAIN,DOMAIN-KEYWORD,hoisin.coocaatv.com
 DOMAIN,DOMAIN-KEYWORD,stsdk.vivo.com.cn
 DOMAIN,DOMAIN-KEYWORD,stsdk.vivoglobal.com
-DOMAIN,IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 DOMAIN,WWW.GBABXW.VIP
 DOMAIN,WWW.VRQVN.APP
 DOMAIN,_1588._https.www.f4szf.top
@@ -1923,7 +1920,7 @@ DOMAIN,ad.wretch.cc
 DOMAIN,ad.wtzw.com
 DOMAIN,ad.wx.com
 DOMAIN,ad.wx.com
-DOMAIN,ad.wx.com:12638
+DOMAIN,ad.wx.com
 DOMAIN,ad.xelements.cn
 DOMAIN,ad.xelements.cn
 DOMAIN,ad.xhey.top
@@ -23845,7 +23842,7 @@ DOMAIN-SUFFIX,9982.com
 DOMAIN-SUFFIX,9982app.net
 DOMAIN-SUFFIX,9982dh1.top
 DOMAIN-SUFFIX,9982dh2.top
-DOMAIN-SUFFIX,9983x.com:8055
+DOMAIN-SUFFIX,9983x.com
 DOMAIN-SUFFIX,99909988.com
 DOMAIN-SUFFIX,999233jj.com
 DOMAIN-SUFFIX,99999999.club

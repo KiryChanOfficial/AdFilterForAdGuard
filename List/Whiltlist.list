@@ -358,7 +358,7 @@ DOMAIN,credit-jfimage-cn.heytapimage.com
 DOMAIN,credit.heytap.com
 DOMAIN,cros-updates-serving.appspot.com
 DOMAIN,csi.gstatic.com
-DOMAIN,css.yhdmtu.xyz$domain=iyinghua.io|yinghua8.tv
+DOMAIN,css.yhdmtu.xyz
 DOMAIN,cstaticdun-v6.126.net
 DOMAIN,cstaticdun.126.net
 DOMAIN,cube.meituan.com
@@ -1696,6 +1696,7 @@ DOMAIN-SUFFIX,ipv4dns.com
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,ipxx.pro
 DOMAIN-SUFFIX,iteye.com
+DOMAIN-SUFFIX,iyinghua.io
 DOMAIN-SUFFIX,jiathis.com
 DOMAIN-SUFFIX,jikipedia.com
 DOMAIN-SUFFIX,jimdo.com
@@ -1754,6 +1755,7 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,ydstatic.com
 DOMAIN-SUFFIX,yep.com
 DOMAIN-SUFFIX,yhd.com
+DOMAIN-SUFFIX,yinghua8.tv
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
