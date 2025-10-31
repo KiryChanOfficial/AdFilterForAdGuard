@@ -62,7 +62,6 @@ DOMAIN,alps.51y5.net
 DOMAIN,als.baidu.com
 DOMAIN,amdc.m.taobao.com
 DOMAIN,amdcopen.m.taobao.com
-DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,analysis.chatglm.cn
 DOMAIN,analytics.yinxiang.com
 DOMAIN,android-apps.pp.cn
@@ -227,7 +226,6 @@ DOMAIN,cache.video.iqiyi.com
 DOMAIN,cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com
 DOMAIN,callback.58.com
 DOMAIN,campus.163.com
-DOMAIN,captive.apple.com
 DOMAIN,card-paopao.iqiyi.com
 DOMAIN,cards.iqiyi.com
 DOMAIN,care.meizu.com
@@ -380,7 +378,6 @@ DOMAIN,debugtbs.qq.com
 DOMAIN,defaultts.tc.qq.com
 DOMAIN,detail.meizu.com
 DOMAIN,develope-oss.lanzoug.com
-DOMAIN,developer.apple.com$generichide
 DOMAIN,di.phncdn.com
 DOMAIN,dianfeijisuanqi.bmcx.com
 DOMAIN,dig.bdurl.net
@@ -550,7 +547,6 @@ DOMAIN,gm.163.com
 DOMAIN,gm.mmstat.com
 DOMAIN,gma.alicdn.com
 DOMAIN,graph.qq.com
-DOMAIN,grpc.biliapi.net
 DOMAIN,gsp0.baidu.com
 DOMAIN,gsp1.baidu.com
 DOMAIN,gtimg.wechatpay.cn
@@ -1295,7 +1291,6 @@ DOMAIN,statics.123pan.com
 DOMAIN,statics.itc.cn
 DOMAIN,staticsns.cdn.bcebos.com
 DOMAIN,staticwiki.biligame.com
-DOMAIN,stats.gc.apple.com
 DOMAIN,statusapi.micloud.xiaomi.net
 DOMAIN,stawritecdn.yuewen.com
 DOMAIN,storage.360buyimg.com

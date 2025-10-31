@@ -661,7 +661,6 @@
 @@||gma.alicdn.com^
 @@||googleadservices.com^
 @@||graph.qq.com^
-@@||grpc.biliapi.net^
 @@||gsp0.baidu.com^
 @@||gsp1.baidu.com^
 @@||gstatic.com^
@@ -7461,8 +7460,6 @@
 ||ali-ad.a.yximgs.com^
 ||ali-adaptive-pull.live-voip.com^
 ||ali-adaptive.pull.yximgs.com^
-||ali-bj-pcdn-16.biliapi.net^
-||ali-bj-pcdn-27.biliapi.net^
 ||ali-ky.static.yximgs.com^
 ||ali-ky.video.yximgs.com^
 ||ali-origin-pull.live-voip.com^
@@ -14914,7 +14911,6 @@
 ||growth-tracker.guazi.com^
 ||growth.umeng.com^
 ||growthpic.weishi.qq.com^
-||grpc.biliapi.net^
 ||grs.dbankcloud.com^
 ||grs.hicloud.com^
 ||grs.platform.dbankcloud.ru^
@@ -15905,13 +15901,6 @@
 ||hw-p2p-pull.video-voip.com^
 ||hw-p2p.pull.yximgs.com^
 ||hw-sdk.open.talk.getui.cn^
-||hw-sh-pcdn-09.biliapi.net^
-||hw-sh-pcdn-14.biliapi.net^
-||hw-sh-pcdn-17.biliapi.net^
-||hw-sh-pcdn-19.biliapi.net^
-||hw-sh-pcdn-29.biliapi.net^
-||hw-sh-pcdn-36.biliapi.net^
-||hw-sh-pcdn-93.biliapi.net^
 ||hw.pull.yximgs.com^
 ||hw.wts999.com^
 ||hw.zuimeitianqi.com^
@@ -21149,7 +21138,6 @@
 ||network.tingyun.com^
 ||networkbench.com^
 ||new-api.meiqia.com^
-||new-service.biliapi.net^
 ||new.api.ad.xiaomi.com^
 ||new.cnzz.com^
 ||new.dashboard.mob.com^

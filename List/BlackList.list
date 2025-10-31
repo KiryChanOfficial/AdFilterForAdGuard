@@ -2429,7 +2429,6 @@ DOMAIN,advertiseonbing.azureedge.net
 DOMAIN,advertising-api-eu.amazon.com
 DOMAIN,advertising-api-fe.amazon.com
 DOMAIN,advertising-api.amazon.com
-DOMAIN,advertising.apple.com
 DOMAIN,advertising.twitter.com
 DOMAIN,advertising.yahoo.com
 DOMAIN,advertising.yandex.ru
@@ -2628,8 +2627,6 @@ DOMAIN,alhy.7790.com
 DOMAIN,ali-ad.a.yximgs.com
 DOMAIN,ali-adaptive-pull.live-voip.com
 DOMAIN,ali-adaptive.pull.yximgs.com
-DOMAIN,ali-bj-pcdn-16.biliapi.net
-DOMAIN,ali-bj-pcdn-27.biliapi.net
 DOMAIN,ali-ky.static.yximgs.com
 DOMAIN,ali-ky.video.yximgs.com
 DOMAIN,ali-origin-pull.live-voip.com
@@ -2820,7 +2817,6 @@ DOMAIN,api-ad-data.kajicam.com
 DOMAIN,api-ad-product.huxiu.com
 DOMAIN,api-ad.kajicam.com
 DOMAIN,api-ads.tiantianqutao.com
-DOMAIN,api-adservices.apple.com
 DOMAIN,api-adtrace-asp.yiye.ai
 DOMAIN,api-adx.52qumao.com
 DOMAIN,api-analytics-cn.huami.com
@@ -3473,7 +3469,6 @@ DOMAIN,apppv.zol.com.cn
 DOMAIN,apps.buzzcity.net
 DOMAIN,apps.bytesfield-b.com
 DOMAIN,apps.bytesfield.com
-DOMAIN,apps.iad.apple.com
 DOMAIN,apps.mobilityware.com
 DOMAIN,apps.oceanengine.com
 DOMAIN,apps.outfit7.com
@@ -3883,7 +3878,6 @@ DOMAIN,banners.beted.com
 DOMAIN,banners.cams.com
 DOMAIN,banners.clubworldgroup.com
 DOMAIN,banners.expressindia.com
-DOMAIN,banners.itunes.apple.com
 DOMAIN,banners.itweb.co.za
 DOMAIN,banners.playocio.com
 DOMAIN,bannershotlink.perfectgonzo.com
@@ -4176,7 +4170,6 @@ DOMAIN,blog.tingyun.com
 DOMAIN,blogad01.myweb.hinet.net
 DOMAIN,blogad02.myweb.hinet.net
 DOMAIN,bluemoon-up-src.ezone-h5.com
-DOMAIN,blueprints.iad.apple.com
 DOMAIN,bluhostedbanners.blucigs.com
 DOMAIN,bmdz.011.com
 DOMAIN,bmg.wnbfw.com
@@ -4196,7 +4189,6 @@ DOMAIN,bolinhhhhhh.ifxs6c.com
 DOMAIN,bolinhhhhhh.ifxs6c.com.w.kunlunpi.com
 DOMAIN,bolt.jebe.renren.com
 DOMAIN,book.d.ireader.com
-DOMAIN,books-analytics-events.apple.com
 DOMAIN,boost-next.co.jp
 DOMAIN,boot.bytecache.cn
 DOMAIN,bootpreload.uve.weibo.com
@@ -4546,7 +4538,6 @@ DOMAIN,c8zxgyhp.xiaohongshu-mycdn.com
 DOMAIN,c9b0k.kwtj9.xyz
 DOMAIN,ca.5173car.com
 DOMAIN,ca.gtimg.com
-DOMAIN,ca.iadsdk.apple.com
 DOMAIN,ca.w8.com.cn
 DOMAIN,ca.yangshengtv.com
 DOMAIN,ca.zol.com.cn
@@ -4684,7 +4675,6 @@ DOMAIN,ccfeedback.qulang123.com
 DOMAIN,cck.ppkkll6655.com
 DOMAIN,cclibraries-defaults-cdn.adobe.com
 DOMAIN,ccmsupport-sz.tenpay.com
-DOMAIN,ccportal.iad.apple.com
 DOMAIN,ccr.yxdown.com
 DOMAIN,ccs-mipdx.cn.miaozhen.com
 DOMAIN,ccs.cdocker401.com
@@ -4993,7 +4983,6 @@ DOMAIN,ceuswatcab02.blob.core.windows.net
 DOMAIN,cf-gl.qiezibenpao.com
 DOMAIN,cf.cdn.inmobi.com
 DOMAIN,cf.getui.com
-DOMAIN,cf.iadsdk.apple.com
 DOMAIN,cfae5defeae32003.eo.sched.vodtylego-dk.tdnsvod1.cn
 DOMAIN,cfcffnhqqaibabwt.ber3.xyz
 DOMAIN,cfci.7790.com
@@ -5262,7 +5251,6 @@ DOMAIN,cmshow.gtimg.cn
 DOMAIN,cmsmanage-siteapi.gwm.com.cn
 DOMAIN,cmts.iqiyi.com
 DOMAIN,cmv6-10-81.getui.com
-DOMAIN,cmws.iad.apple.com
 DOMAIN,cmx.autohome.com.cn
 DOMAIN,cmyd-10-11.getui.com
 DOMAIN,cmyd-10-124.getui.com
@@ -5601,7 +5589,6 @@ DOMAIN,crumb.sobot.com
 DOMAIN,cs-feige.iqiyi.com
 DOMAIN,cs.10jqka.com.cn
 DOMAIN,cs.dqwjzm.com
-DOMAIN,cs.iadsdk.apple.com
 DOMAIN,cs.luckyorange.net
 DOMAIN,cs.twcczhu.com
 DOMAIN,cs.voiceads.cn
@@ -5733,7 +5720,6 @@ DOMAIN,d0.xcar.com.cn
 DOMAIN,d00.sina.com.cn
 DOMAIN,d001.ppos.com
 DOMAIN,d08i.k8.com
-DOMAIN,d1--tf-gotcha04.bilivideo.com
 DOMAIN,d1.showself.com
 DOMAIN,d1.sina.com.cn
 DOMAIN,d1.sinaimg.cn
@@ -6200,8 +6186,6 @@ DOMAIN,dispatch.360-jr.com
 DOMAIN,dispatcher.360in.com
 DOMAIN,dispatcher.upmc.uc.cn
 DOMAIN,dispenser-rtb.sape.ru
-DOMAIN,display-apps-ui-soak.iad.apple.com
-DOMAIN,display-apps-ui.iad.apple.com
 DOMAIN,display.360totalsecurity.com
 DOMAIN,display.ad.daum.net
 DOMAIN,display.adhudong.com
@@ -6361,7 +6345,6 @@ DOMAIN,docs.getui.com
 DOMAIN,docs.jiguang.cn
 DOMAIN,docs.jpush.cn
 DOMAIN,docs.tradplusad.com
-DOMAIN,doh.dns.apple.com
 DOMAIN,doh.iqiyi.com
 DOMAIN,doh.ptqy.gitv.tv
 DOMAIN,doiney.pandasone.com
@@ -8076,7 +8059,6 @@ DOMAIN,groupa.onlylady.com
 DOMAIN,growth-support.applovin.com
 DOMAIN,growth-tracker.guazi.com
 DOMAIN,growthpic.weishi.qq.com
-DOMAIN,grpc.biliapi.net
 DOMAIN,grs.dbankcloud.com
 DOMAIN,grs.hicloud.com
 DOMAIN,grs.platform.dbankcloud.ru
@@ -8550,13 +8532,6 @@ DOMAIN,hw-ot-ad.a.yximgs.com
 DOMAIN,hw-p2p-pull.video-voip.com
 DOMAIN,hw-p2p.pull.yximgs.com
 DOMAIN,hw-sdk.open.talk.getui.cn
-DOMAIN,hw-sh-pcdn-09.biliapi.net
-DOMAIN,hw-sh-pcdn-14.biliapi.net
-DOMAIN,hw-sh-pcdn-17.biliapi.net
-DOMAIN,hw-sh-pcdn-19.biliapi.net
-DOMAIN,hw-sh-pcdn-29.biliapi.net
-DOMAIN,hw-sh-pcdn-36.biliapi.net
-DOMAIN,hw-sh-pcdn-93.biliapi.net
 DOMAIN,hw.pull.yximgs.com
 DOMAIN,hw.wts999.com
 DOMAIN,hw.zuimeitianqi.com
@@ -8693,25 +8668,18 @@ DOMAIN,iad-05.braze.com
 DOMAIN,iad-06.braze.com
 DOMAIN,iad-08.braze.com
 DOMAIN,iad.appboy.com
-DOMAIN,iad.apple.com
 DOMAIN,iad.g.163.com
 DOMAIN,iad0ssl.pcauto.com.cn
 DOMAIN,iad0ssl.pconline.com.cn
 DOMAIN,iadc.qwapi.com
-DOMAIN,iadcontent.apple.com
 DOMAIN,iadctest.qwapi.com
-DOMAIN,iadfeed.iad.apple.com
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
 DOMAIN,iadmatvideo.nosdn.127.net
-DOMAIN,iadmoo.apple.com
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
 DOMAIN,iads.xinmin.cn
-DOMAIN,iadsdk.apple.com
 DOMAIN,iadsdk.qtlcdn.com
-DOMAIN,iadworkbench-soak.iad.apple.com
-DOMAIN,iadworkbench.apple.com
 DOMAIN,iam.inmobi.com
 DOMAIN,iask.qq.com
 DOMAIN,ib-hl.snssdk.com
@@ -9299,7 +9267,6 @@ DOMAIN,ip6-localhost
 DOMAIN,ipdispatch.live.xycdn.com
 DOMAIN,ipengtai.huanqiu.com
 DOMAIN,iphonelog.shouji.baofeng.com
-DOMAIN,iphonesubmissions.apple.com
 DOMAIN,ipi.shuzilm.cn
 DOMAIN,ipic.staticsdo.com
 DOMAIN,ipm.atm.cp31.ott.cibntv.net
@@ -9329,7 +9296,6 @@ DOMAIN,ir.mail.163.com
 DOMAIN,ir.mail.yeah.net
 DOMAIN,irc.qubiankeji.com
 DOMAIN,irhg.uiuin.cn
-DOMAIN,iris.iad.apple.com
 DOMAIN,irnvf.lu.sogou.com
 DOMAIN,irpmt.mail.163.com
 DOMAIN,irtp.143.cc
@@ -10144,7 +10110,6 @@ DOMAIN,latam.adspecs.yahoo.com
 DOMAIN,later-analytics-reports.s3-accelerate.amazonaws.com
 DOMAIN,lattehtml.lattebank.com
 DOMAIN,launch.aiyouaiyou.cn
-DOMAIN,launch.apple.com
 DOMAIN,launch.zx10000.com
 DOMAIN,launcher.smart-tv.cn
 DOMAIN,launcherfile-o.leiniao.aisee.tv
@@ -11413,7 +11378,6 @@ DOMAIN,mercury.jd.com
 DOMAIN,mercury.snssdk.com
 DOMAIN,mermaid.ximalaya.com
 DOMAIN,message.meitu.com
-DOMAIN,mesu.apple.com
 DOMAIN,met-horn-log.dreport.meituan.net
 DOMAIN,met.adwhirl.com
 DOMAIN,meta-cdn.video.iqiyi.com
@@ -11429,7 +11393,6 @@ DOMAIN,metrics-dra.dt.hicloud.com
 DOMAIN,metrics-drcn.dt.dbankcloud.cn
 DOMAIN,metrics-drcn.dt.hihonorcloud.com
 DOMAIN,metrics-picture.d.meituan.net
-DOMAIN,metrics.apple.com
 DOMAIN,metrics.cnn.com
 DOMAIN,metrics.data.hicloud.com
 DOMAIN,metrics.dt.dbankcloud.cn
@@ -12068,7 +12031,6 @@ DOMAIN,network.nutaku.net
 DOMAIN,network.sofeminine.co.uk
 DOMAIN,network.tingyun.com
 DOMAIN,new-api.meiqia.com
-DOMAIN,new-service.biliapi.net
 DOMAIN,new.api.ad.xiaomi.com
 DOMAIN,new.dashboard.mob.com
 DOMAIN,new.ltheanine.cn
@@ -12096,7 +12058,6 @@ DOMAIN,news.10jqka.com.cn
 DOMAIN,news.51y5.net
 DOMAIN,news.58.com
 DOMAIN,news.cxxtv.com
-DOMAIN,news.iadsdk.apple.com
 DOMAIN,news.l.qq.com
 DOMAIN,news.m.liebao.cn
 DOMAIN,news.mpush.qq.com
@@ -12176,7 +12137,6 @@ DOMAIN,nosrxlle.hmdbpvtucbhmtvd.top
 DOMAIN,nosup-jd1.127.net
 DOMAIN,note.qvkanwen.com
 DOMAIN,note.zqdjy.cn
-DOMAIN,notes-analytics-events.apple.com
 DOMAIN,notice.game.xiaomi.com
 DOMAIN,notice.iqiyi.com
 DOMAIN,notice.uchome.manyou.com
@@ -12321,7 +12281,6 @@ DOMAIN,ocpc-api.shinet.cn
 DOMAIN,ocpx.adwangmai.com
 DOMAIN,ocpx.mktad.cn
 DOMAIN,ocsapi1964.hydqef.com.w.cdngslb.com
-DOMAIN,ocsp.apple.com
 DOMAIN,ocsp.crlocsp.cn
 DOMAIN,ocsp.godaddy.com
 DOMAIN,ocwf.880.net
@@ -13333,8 +13292,6 @@ DOMAIN,prophet.heise.de
 DOMAIN,proto.ads.8le8le.com
 DOMAIN,proton.flurry.com
 DOMAIN,proxy-mob-cld.alicdn.com
-DOMAIN,proxy-tf-all-ws.bilivideo.com
-DOMAIN,proxy.advp.apple.com
 DOMAIN,proxy.safebrowsing.apple
 DOMAIN,proxy.sec.miui.com
 DOMAIN,proxy.svc.litv.tv
@@ -13709,7 +13666,6 @@ DOMAIN,qw.wandx5.cn
 DOMAIN,qw1u.yl.ag
 DOMAIN,qw2v.changshuohr.net
 DOMAIN,qw2v.taoxiehui.cn
-DOMAIN,qwapi.apple.com
 DOMAIN,qwe0231141.bj.bcebos.com
 DOMAIN,qweqwe.mctvhp.cn
 DOMAIN,qweqwe1.cqgcywl.com
@@ -14693,7 +14649,6 @@ DOMAIN,search3-search.ixigua.com
 DOMAIN,search5-search-hl.ixigua.com
 DOMAIN,search5-search-lq.toutiaoapi.com
 DOMAIN,search5-search.ixigua.com
-DOMAIN,searchads.apple.com
 DOMAIN,searchlog.html5.qq.com
 DOMAIN,searchrecommend.kugou.com
 DOMAIN,seavideo-ak.espn.go.com
@@ -14714,7 +14669,6 @@ DOMAIN,secure.img-cdn.mediaplex.com
 DOMAIN,secure.mediav.com
 DOMAIN,secure.quantserve.com
 DOMAIN,secure.statcounter.com
-DOMAIN,securemetrics.apple.com
 DOMAIN,securepubads.g.doubleclick.net
 DOMAIN,security-hl.snssdk.com
 DOMAIN,security-lq.snssdk.com
@@ -15517,7 +15471,6 @@ DOMAIN,statusdevops.appsflyer.com
 DOMAIN,statuslogin.37.com
 DOMAIN,stbw.7790.com
 DOMAIN,stdl.qq.com
-DOMAIN,stg-cmws.iad.apple.com
 DOMAIN,stg-data.ads.heytapmobi.com
 DOMAIN,stg.shuhonggz.com
 DOMAIN,stjzh.gdtarget.com
@@ -15526,7 +15479,6 @@ DOMAIN,stm-cdn.cn.miaozhen.com
 DOMAIN,stm-collect.cn.miaozhen.com
 DOMAIN,stm.cn.miaozhen.com
 DOMAIN,stnetsdk.vivo.com.cn
-DOMAIN,stocks-analytics-events.apple.com
 DOMAIN,storage-public.zhaopin.cn
 DOMAIN,storage.b161161.com
 DOMAIN,storage.googleapis.com
@@ -15578,7 +15530,6 @@ DOMAIN,style-browse-openapi.test.gifshow.com
 DOMAIN,su.8881919.cc
 DOMAIN,su.bdimg.com
 DOMAIN,su.bdstatic.com
-DOMAIN,su.iadsdk.apple.com
 DOMAIN,sub.powerapple.com
 DOMAIN,sub.topber.com
 DOMAIN,subscribe.vivo.com.cn
@@ -15600,7 +15551,6 @@ DOMAIN,support.appsflyer.com
 DOMAIN,support.qiu630.com
 DOMAIN,support.wechat.com
 DOMAIN,support.you.163.com
-DOMAIN,supportmetrics.apple.com
 DOMAIN,surv.xbizmedia.com
 DOMAIN,survey.feelgood.cn
 DOMAIN,survey.g.doubleclick.net
@@ -16201,7 +16151,6 @@ DOMAIN,tr-st-sl.vivoglobal.com
 DOMAIN,tr-vcode-od.vivoglobal.com
 DOMAIN,tr.aoxinshangmao.xyz
 DOMAIN,tr.byteurl.cn
-DOMAIN,tr.iadsdk.apple.com
 DOMAIN,tr.medproad.com
 DOMAIN,tr.news.mi-oferta.es
 DOMAIN,tr.snapchat.com
@@ -16796,11 +16745,6 @@ DOMAIN,uploads2.gifshow.com
 DOMAIN,uploads2.ksapisrv.com
 DOMAIN,uplze.code.weddingeeos.com
 DOMAIN,upmov.a.kwimgs.com
-DOMAIN,upos-sz-mirror08c.bilivideo.com
-DOMAIN,upos-sz-mirror08h.bilivideo.com
-DOMAIN,upos-sz-mirrorcos.bilivideo.com
-DOMAIN,upos-sz-static.bilivideo.com
-DOMAIN,upos-sz-staticcos.bilivideo.com
 DOMAIN,ups.analytics.yahoo.com
 DOMAIN,ups.cp31.ott.cibntv.net
 DOMAIN,ups.ksmobile.net
@@ -16855,7 +16799,6 @@ DOMAIN,uss-pid.lenovomm.com
 DOMAIN,usvb.yide.com
 DOMAIN,usync.aws.rubiconproject.com
 DOMAIN,uszr.720lu.com
-DOMAIN,ut.iadsdk.apple.com
 DOMAIN,ut2.shuqistat.com
 DOMAIN,util.nphoto.net
 DOMAIN,utility.baidu.com
@@ -17504,7 +17447,6 @@ DOMAIN,wds.ecsxs.com
 DOMAIN,wds.inte.sogoucdn.com
 DOMAIN,wdxjp5kq.aalpp30.xyz
 DOMAIN,wdzsb.com.cn
-DOMAIN,weather-analytics-events.apple.com
 DOMAIN,weather-community-drcn.weather.dbankcloud.cn
 DOMAIN,weather-drcn.music.dbankcloud.cn
 DOMAIN,weather-img.weathercn.com
