@@ -139,7 +139,6 @@ DOMAIN,api.zhihu.com
 DOMAIN,api.zhuti.xiaomi.com
 DOMAIN,api2-album.quark.cn
 DOMAIN,apimobile.meituan.com
-DOMAIN,apis.google.com
 DOMAIN,apischedule.ksyungslb.com
 DOMAIN,apissl.ksapisrv.com
 DOMAIN,apiwz.midukanshu.com
@@ -315,8 +314,6 @@ DOMAIN,client-uc.heytapmobi.com
 DOMAIN,client.app.coc.10086.cn
 DOMAIN,client.wns.windows.com
 DOMAIN,clientlog3.music.163.com
-DOMAIN,clients.l.google.com
-DOMAIN,clients1.google.com
 DOMAIN,cloudcontrol.live.360.cn
 DOMAIN,cm.bilibili.com
 DOMAIN,cms-bucket.ws.126.net
@@ -345,7 +342,6 @@ DOMAIN,connect.rom.miui.com
 DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,connectivitycheck.platform.hicloud.com
 DOMAIN,consumerapp-1251779293.image.myqcloud.com
-DOMAIN,content-autofill.googleapis.com
 DOMAIN,core.tantanapp.com
 DOMAIN,count.mail.163.com
 DOMAIN,cp2-cdn-play.funshion.com
@@ -599,8 +595,6 @@ DOMAIN,hub5btmain.v6.shub.sandai.net
 DOMAIN,hub5pn.wap.sandai.net
 DOMAIN,hudong.alicdn.com
 DOMAIN,hugelog.fcbox.com
-DOMAIN,huichuan-mc.sm.cn
-DOMAIN,huichuan.sm.cn
 DOMAIN,i.gtimg.cn
 DOMAIN,i.ibb.co
 DOMAIN,i.meituan.com
@@ -637,7 +631,6 @@ DOMAIN,image.9game.cn
 DOMAIN,image.coolapk.com
 DOMAIN,image.quark.cn
 DOMAIN,image.uc.cn
-DOMAIN,imasdk.googleapis.com
 DOMAIN,img.360kuai.com
 DOMAIN,img.alicdn.com
 DOMAIN,img.client.10010.com
@@ -702,7 +695,6 @@ DOMAIN,jiazhang.gm.163.com
 DOMAIN,jiazhang.qq.com
 DOMAIN,jiguang.coc.10086.cn
 DOMAIN,jingfen.jd.com
-DOMAIN,jnn-pa.googleapis.com
 DOMAIN,jr.jd.com
 DOMAIN,js-gamezone.static.yximgs.com
 DOMAIN,js.3conline.com
@@ -813,7 +805,6 @@ DOMAIN,m.uczzd.cn
 DOMAIN,m.video.9ddm.com
 DOMAIN,m.video.xiaomi.com
 DOMAIN,m.ykimg.com
-DOMAIN,m.youtube.com
 DOMAIN,m.zhibo8.com
 DOMAIN,m.zhuanzhuan.com
 DOMAIN,m1.img.10010.com
@@ -831,7 +822,6 @@ DOMAIN,mall.360.cn
 DOMAIN,mall.bilibili.com
 DOMAIN,mall.csdn.net
 DOMAIN,mam.netease.com
-DOMAIN,manifest.googlevideo.com
 DOMAIN,map.bmcx.com
 DOMAIN,map.qq.com
 DOMAIN,mapi.m.jd.com
@@ -1105,9 +1095,7 @@ DOMAIN,pingtcss.qq.com
 DOMAIN,pitaya.bytedance.com
 DOMAIN,pkg.biligame.com
 DOMAIN,pkg.sinaimg.cn
-DOMAIN,play-fe.googleapis.com
 DOMAIN,play.163.com
-DOMAIN,play.googleapis.com
 DOMAIN,play1.heytapimage.com
 DOMAIN,pm.funshion.com
 DOMAIN,po.funshion.com
@@ -1159,17 +1147,12 @@ DOMAIN,qqvip-web.cdn-go.cn
 DOMAIN,qr.cp31.ott.cibntv.net
 DOMAIN,quan.suning.com
 DOMAIN,quapp.shenbabao.com
-DOMAIN,quark.sm.cn
 DOMAIN,qun.qzone.qq.com
 DOMAIN,qwhdcdn.cmcc-cs.cn
 DOMAIN,qy.163.com
 DOMAIN,qzone-web-v2.cdn-go.cn
 DOMAIN,qzonestyle.gtimg.cn
 DOMAIN,qzs.qq.com
-DOMAIN,r3---sn-a5mlrn7r.googlevideo.com
-DOMAIN,r4---sn-a5meknek.googlevideo.com
-DOMAIN,r4---sn-qxo7rn7e.googlevideo.com
-DOMAIN,r5---sn-4g5ednsl.googlevideo.com
 DOMAIN,rdelivery.qq.com
 DOMAIN,reader.browser.miui.com
 DOMAIN,reading.snssdk.com
@@ -1264,7 +1247,6 @@ DOMAIN,sofire.bdstatic.com
 DOMAIN,soft.360.cn
 DOMAIN,soft.tbs.imtt.qq.com
 DOMAIN,soup.v.qq.com
-DOMAIN,souti-ims.sm.cn
 DOMAIN,soutiapi.quark.cn
 DOMAIN,sp.ele.me
 DOMAIN,sp0.baidu.com
@@ -1329,7 +1311,6 @@ DOMAIN,subscription.iqiyi.com
 DOMAIN,sug.browser.miui.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,suggestion.baidu.com
-DOMAIN,sugs.m.sm.cn
 DOMAIN,support.weixin.qq.com
 DOMAIN,survey.feelgood.cn
 DOMAIN,sv.map.baidu.com
@@ -1530,8 +1511,6 @@ DOMAIN,www.crossoverchina.com
 DOMAIN,www.dianping.com
 DOMAIN,www.dpfile.com
 DOMAIN,www.dxmpay.com
-DOMAIN,www.google.com
-DOMAIN,www.googleadservices.com
 DOMAIN,www.gstatic.com
 DOMAIN,www.haier.com
 DOMAIN,www.hao123.com
@@ -1566,8 +1545,6 @@ DOMAIN,www.twitter.com
 DOMAIN,www.xiaohongshu.com
 DOMAIN,www.ximalaya.com
 DOMAIN,www.xvideos.com
-DOMAIN,www.youtube-nocookie.com
-DOMAIN,www.youtube.com
 DOMAIN,www.yuewen.com
 DOMAIN,www.yuketang.cn
 DOMAIN,www.zhihu.com
@@ -1602,7 +1579,6 @@ DOMAIN,yixiu-abtest.alicdn.com
 DOMAIN,ylog.huya.com
 DOMAIN,ym.163.com
 DOMAIN,youdata.163.com
-DOMAIN,youtubei.googleapis.com
 DOMAIN,yoyodadada.lanzouw.com
 DOMAIN,ysf.qiyukf.net
 DOMAIN,yule.sohu.com
@@ -1617,7 +1593,6 @@ DOMAIN,zhuanlan.zhihu.com
 DOMAIN,zhuti.xiaomi.com
 DOMAIN,zhwnlapi.etouch.cn
 DOMAIN,zkres.myzaker.com
-DOMAIN,zm.sm-tc.cn
 DOMAIN-SUFFIX,000714.xyz
 DOMAIN-SUFFIX,177d.wodeshougoncom
 DOMAIN-SUFFIX,177j.wodenongtiacom
@@ -1675,7 +1650,6 @@ DOMAIN-SUFFIX,fraudmetrix.cn
 DOMAIN-SUFFIX,gdtimg.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gitv.tv
-DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
@@ -1724,7 +1698,6 @@ DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,quark.cn
 DOMAIN-SUFFIX,saucenao.com
 DOMAIN-SUFFIX,similarweb.com
-DOMAIN-SUFFIX,sm.cn
 DOMAIN-SUFFIX,sobot.com
 DOMAIN-SUFFIX,sourl.cn
 DOMAIN-SUFFIX,spotify.com
@@ -1757,8 +1730,6 @@ DOMAIN-SUFFIX,yep.com
 DOMAIN-SUFFIX,yhd.com
 DOMAIN-SUFFIX,yinghua8.tv
 DOMAIN-SUFFIX,ykimg.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,yunjiasu.com
 DOMAIN-SUFFIX,zazhipu.com
 DOMAIN-SUFFIX,zhipin.com
