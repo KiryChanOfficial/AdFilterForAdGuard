@@ -1106,7 +1106,6 @@ DOMAIN,a.medialytics.com
 DOMAIN,a.mjlnbx.cn
 DOMAIN,a.n2mg.cn
 DOMAIN,a.nanhuwang.com
-DOMAIN,a.nel.cloudflare.com
 DOMAIN,a.nowscore.com
 DOMAIN,a.qchannel01.cn
 DOMAIN,a.qchannel03.cn
@@ -3114,7 +3113,6 @@ DOMAIN,api.quminglemei.com
 DOMAIN,api.qvkanwen.com
 DOMAIN,api.qvpublish.com
 DOMAIN,api.ra2.xlmc.sec.miui.com
-DOMAIN,api.radar.cloudflare.com
 DOMAIN,api.redx.vip
 DOMAIN,api.rees46.com
 DOMAIN,api.revenuads.com
@@ -10177,7 +10175,6 @@ DOMAIN,letv.axp.admaster.com.cn
 DOMAIN,letv.ipdx.cn.miaozhen.com
 DOMAIN,letv.irs01.com
 DOMAIN,lf-c-flwb.bytetos.com
-DOMAIN,lf-cdn-tos.bytescm.com
 DOMAIN,lf-event-manager.oceanengine.com
 DOMAIN,lf-leads-fe-scm.bytecdn.com
 DOMAIN,lf-normal-gr-sourcecdn.bytegecko.com
@@ -10190,7 +10187,6 @@ DOMAIN,lf.1681731908.com
 DOMAIN,lf.snssdk.com
 DOMAIN,lf1-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN,lf1-cdn-tos.bytegoofy.com
-DOMAIN,lf1-cdn-tos.bytescm.com
 DOMAIN,lf1-ttcdn-tos.pstatp.com
 DOMAIN,lf26-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN,lf26-cdn-tos.bytegeckoext.com
@@ -10211,7 +10207,6 @@ DOMAIN,lf3-reading.fqnovelpic.com
 DOMAIN,lf3-reading.fqnovelstatic.com
 DOMAIN,lf3-sf-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,lf3-short.bytetos.com
-DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,lf3-ttcdn-tos.pstatp.com
 DOMAIN,lf3-webcastcdn-tos-sign.douyinstatic.com
 DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com
@@ -10258,7 +10253,6 @@ DOMAIN,license.vod2.myqcloud.com
 DOMAIN,licenses.ashampoo.com
 DOMAIN,licensing.tableausoftware.com
 DOMAIN,life-service-open.scsjsd.com
-DOMAIN,life.douyin.com
 DOMAIN,life.e0575.com
 DOMAIN,life.html5.qq.com
 DOMAIN,life.imagepix.org
@@ -12383,7 +12377,6 @@ DOMAIN,ope.tanx.com
 DOMAIN,opehs.tanx.com
 DOMAIN,open-ad.vivo.com.cn
 DOMAIN,open-channel.api.fenqile.com
-DOMAIN,open-client.douyin.com
 DOMAIN,open-cms-api.quark.cn
 DOMAIN,open-data.china.com
 DOMAIN,open-fish3d.tuyoo.com
@@ -12392,7 +12385,6 @@ DOMAIN,open-pixon.ads-pixiv.net
 DOMAIN,open-set-api.shenshiads.com
 DOMAIN,open.camscanner.com
 DOMAIN,open.cyqh.com.cn
-DOMAIN,open.douyin.com
 DOMAIN,open.e.kuaishou.cn
 DOMAIN,open.e.kuaishou.com
 DOMAIN,open.gtimg.cn
@@ -12705,12 +12697,10 @@ DOMAIN,p3-open-sign.byteimg.com
 DOMAIN,p3-static-img.toutiaoimg.com
 DOMAIN,p3-stone-tv.byteimg.com
 DOMAIN,p3-tt.byteimg.com
-DOMAIN,p3-webcast.douyinpic.com
 DOMAIN,p3-yx.adkwai.com
 DOMAIN,p3.adkwai.com
 DOMAIN,p3.bdxiguaimg.com
 DOMAIN,p3.dcarimg.com
-DOMAIN,p3.douyinpic.com
 DOMAIN,p3.l.qq.com
 DOMAIN,p3.ssl.qhimgs0.com
 DOMAIN,p3.toutiaoimg.com
@@ -12756,7 +12746,6 @@ DOMAIN,p6-novel.byteimg.com
 DOMAIN,p6-open-sign.byteimg.com
 DOMAIN,p6-reading-sign.fqnovelpic.com
 DOMAIN,p6-tt-video-sprite-sign.byteimg.com
-DOMAIN,p6-webcast.douyinpic.com
 DOMAIN,p6-yx.adkwai.com
 DOMAIN,p6.adkwai.com
 DOMAIN,p66-ad.adkwai.com
@@ -12768,11 +12757,9 @@ DOMAIN,p8u.hinet.net
 DOMAIN,p8zi.qiyouzy.com
 DOMAIN,p9-ad-sign.byteimg.com
 DOMAIN,p9-be-pack-sign.pglstatp-toutiao.com
-DOMAIN,p9-developer-sign.bytemaimg.com
 DOMAIN,p9-fanqiesdk-sign.fanqiesdkpic.com
 DOMAIN,p9-orange-sign.byteimg.com
 DOMAIN,p9-pack.byteimg.com
-DOMAIN,p9-webcast.douyinpic.com
 DOMAIN,p9.bdxiguaimg.com
 DOMAIN,p9prqiacsxj80.zkopsmjuhl1.top
 DOMAIN,pacaio.match.qq.com
@@ -17482,15 +17469,11 @@ DOMAIN,web1.openinstall.io
 DOMAIN,webapi.sms.mob.com
 DOMAIN,webapp.kuaishou.com
 DOMAIN,webappcfg.paas.cmbchina.com
-DOMAIN,webcast-open.douyin.com
 DOMAIN,webcast.amemv.com
 DOMAIN,webcast3-core-c-lf.amemv.com
 DOMAIN,webcast3-normal-c-lf.amemv.com
 DOMAIN,webcast5-normal-c-hl.amemv.com
 DOMAIN,webcast5-normal-lf.amemv.com
-DOMAIN,webcast5-open-hl.douyin.com
-DOMAIN,webcast5-open-lf.douyin.com
-DOMAIN,webcast5-open-lq.douyin.com
 DOMAIN,webcast5-wbnormal-lq.toutiaoapi.com
 DOMAIN,webcollects.kugou.com
 DOMAIN,webd.home.news.cn
