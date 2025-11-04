@@ -1,21 +1,7 @@
 # 直连修正
-DOMAIN,analytics.strava.com
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
-DOMAIN,bdtj.tagtic.cn
-DOMAIN,ci.android.com
-DOMAIN,clientservices.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,fairplay.l.qq.com
-DOMAIN,grpc.biliapi.net
-DOMAIN,grpc.biliapi.net
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
-DOMAIN,vi.l.qq.com
-DOMAIN-SUFFIX,wechat.com,extended-matching
-HOST-WILDCARD,*.bilivideo.com
-HOST-WILDCARD,*.mihoyo.com
-HOST-WILDCARD,*.tencent.com
+# 对国内域名进行过滤
+# 第3顺位
+GEOIP,CN
 IP-CIDR,101.32.104.104/32,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve
 IP-CIDR,101.32.104.41/32,no-resolve
