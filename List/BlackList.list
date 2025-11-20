@@ -7,6 +7,7 @@ DOMAIN,a.yximgs.com
 DOMAIN,a6-remad.qm989.com
 DOMAIN,abroad-sdk-push.dutils.com
 DOMAIN,abtest.wtzw.com
+DOMAIN,acs.m.taobao.com
 DOMAIN,ad-drs-ipv6.52qumao.com
 DOMAIN,ad-drs.52qumao.com
 DOMAIN,ad.mi.com
@@ -15,6 +16,7 @@ DOMAIN,ad.us.sinaimg.cn
 DOMAIN,ad.weibo.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com.w.kunlunhuf.com
+DOMAIN,adashx.ut.amap.com
 DOMAIN,adashx.ut.taobao.com
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,addata.jd.com
@@ -27,11 +29,14 @@ DOMAIN,adsdk.vivo.com.cn
 DOMAIN,adse.ximalaya.com
 DOMAIN,adsfs.heytapimage.com
 DOMAIN,adsmind.ugdtimg.com
+DOMAIN,adstrategy.biz.weibo.com
 DOMAIN,adx-data.yfanads.com
 DOMAIN,adx.ads.heytapmobi.com
 DOMAIN,aeventlog.beacon.qq.com
 DOMAIN,ali-stats.jpush.cn
 DOMAIN,als.baidu.com
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,amdc.m.taobao.com
 DOMAIN,anti-sdk-css-pre.m.jd.com
 DOMAIN,anti-sdk-report.m.jd.com
 DOMAIN,api-adx.52qumao.com
@@ -50,7 +55,9 @@ DOMAIN,apmplus.volces.com
 DOMAIN,appcfg.v.qq.com
 DOMAIN,appstoreort-stsdk.vivo.com.cn
 DOMAIN,as.yyymvp.com
+DOMAIN,atoken.m.taobao.com
 DOMAIN,audid-api.taobao.com
+DOMAIN,awaken.amap.com
 DOMAIN,b.qchannel03.cn
 DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,baichuan-sdk.alicdn.com.w.cdngslb.com
@@ -62,6 +69,7 @@ DOMAIN,bj-a.bcebos.com.n.shifen.com
 DOMAIN,bjb.openstorage.cn
 DOMAIN,bk.info.zb.qq.com
 DOMAIN,blackhole.m.jd.com
+DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,broadcast.chat.bilibili.com
 DOMAIN,browser.vivo.com.cn
 DOMAIN,browserconf.vivo.com.cn
@@ -104,6 +112,7 @@ DOMAIN,fund.sina.com.cn
 DOMAIN,fxgate.baidu.com
 DOMAIN,g-api.kwai.com
 DOMAIN,g1.tagtic.com
+DOMAIN,gaode-acs.m.taobao.com
 DOMAIN,gdt.qq.com
 DOMAIN,gias.jd.com
 DOMAIN,gosspublic.alicdn.com
@@ -155,12 +164,15 @@ DOMAIN,mres.ximalaya.com
 DOMAIN,mssdk.volces.com
 DOMAIN,mstat.tpdns.tencent.com
 DOMAIN,mtt.eve.mdt.qq.com
+DOMAIN,mum.alibabachengdun.com
 DOMAIN,newsapi.sina.cn
 DOMAIN,nsclick.baidu.com
 DOMAIN,obd.gtimg.com
 DOMAIN,open.e.kuaishou.cn
+DOMAIN,open.e.kuaishou.com
 DOMAIN,open.kuaishouzt.com
 DOMAIN,open.snssdk.com
+DOMAIN,optimus-ads.amap.com
 DOMAIN,oth.eve.mdt.qq.com
 DOMAIN,oth.str.mdt.qq.com
 DOMAIN,otheve.beacon.qq.com
@@ -175,6 +187,7 @@ DOMAIN,pv.sohu.com
 DOMAIN,qm-ab.wtzw.com
 DOMAIN,qzs.gdtimg.com
 DOMAIN,re.m.jd.com
+DOMAIN,render-prod-backup-tile.amap.com
 DOMAIN,risk-fp-openapi.vivo.com.cn
 DOMAIN,s.peplle.cn
 DOMAIN,sdk-ab-config.qquanquan.com
@@ -202,8 +215,11 @@ DOMAIN,tdid.m.qq.com
 DOMAIN,tieba-ares.cdn.bcebos.com
 DOMAIN,tobapplog.volceapplog.com
 DOMAIN,toblog.volceapplog.com
+DOMAIN,token.safebrowsing.apple, proxy
 DOMAIN,tr.byteurl.cn
+DOMAIN,ts.amap.com
 DOMAIN,ulog-sdk.gifshow.com
+DOMAIN,unet.quark.cn
 DOMAIN,union.baidu.com
 DOMAIN,update.wtzw.com
 DOMAIN,uranus.jd.com
@@ -217,6 +233,7 @@ DOMAIN,vweixinthumb.tc.qq.com
 DOMAIN,w1.kskwai.com
 DOMAIN,wcp.taobao.com
 DOMAIN,webcast-open.douyin.com
+DOMAIN,weibointl.api.weibo.cn
 DOMAIN,win.gdt.qq.com
 DOMAIN,wl.jd.com
 DOMAIN,wn.pos.baidu.com
@@ -227,6 +244,7 @@ DOMAIN,wxsmw.wxs.qq.com
 DOMAIN,xc.gdt.qq.com
 DOMAIN,xj.gtimg.cn
 DOMAIN,xlog.jd.com
+DOMAIN,xpis-xcdn.youku.com
 DOMAIN,yun.tim.qq.com
 DOMAIN-KEYWORD,pangolin
 DOMAIN-SUFFIX,000123456789.online
