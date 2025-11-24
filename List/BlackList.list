@@ -48,9 +48,12 @@ DOMAIN,api-nps.wtzw.com
 DOMAIN,api-p4.mobsurl.com
 DOMAIN,api.douban.com
 DOMAIN,api.m.jd.com
+DOMAIN,api.miguvideo.com
 DOMAIN,api.touch-mobile.baidu.com
 DOMAIN,api.touch-moblie.com
 DOMAIN,api.verify.mob.com
+DOMAIN,apm.app.coc.10086.cn
+DOMAIN,apm.clientaccess.10086.cn
 DOMAIN,apmplus.volces.com
 DOMAIN,appcfg.v.qq.com
 DOMAIN,appstoreort-stsdk.vivo.com.cn
@@ -62,6 +65,7 @@ DOMAIN,b.qchannel03.cn
 DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,baichuan-sdk.alicdn.com.w.cdngslb.com
 DOMAIN,baichuan-sdk.taobao.com
+DOMAIN,base.hjq.komect.com
 DOMAIN,bdsp.x.jd.com
 DOMAIN,bes-mtj.baidu.com
 DOMAIN,biz.weibo.com
@@ -86,6 +90,8 @@ DOMAIN,ccflbs.m.jd.com
 DOMAIN,cdn-api-verify.mob.com
 DOMAIN,cdn-new-ad.wtzw.com
 DOMAIN,cdn-new-ad.wtzw.com.g4.bdydns.com
+DOMAIN,cfgc.flysleep.cn
+DOMAIN,cfgc.zztfly.com
 DOMAIN,cgcr.wtzw.com
 DOMAIN,checkip.amazonaws.com
 DOMAIN,cn-fp.apitd.net
@@ -94,9 +100,11 @@ DOMAIN,dfe-mic.mob.com
 DOMAIN,dg.k.jd.com
 DOMAIN,dgstatic.jd.com
 DOMAIN,dmugc-cn.domobcdn.com
+DOMAIN,dnlog.cmpassport.com
 DOMAIN,drs.wtzw.com
 DOMAIN,dsp-x.jd.com
 DOMAIN,dspsdk.pinduoduo.com
+DOMAIN,dualstack-logs.amap.com
 DOMAIN,e.kuaishou.com
 DOMAIN,e.mi.com
 DOMAIN,e.qq.com
@@ -119,6 +127,7 @@ DOMAIN,gosspublic.alicdn.com
 DOMAIN,gslbtx.ximalaya.com
 DOMAIN,guid.tpns.tencent.com
 DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,h.app.coc.10086.cn
 DOMAIN,hmma.baidu.com
 DOMAIN,httpdns.alicdn.com
 DOMAIN,httpdns.bcelive.com
@@ -128,7 +137,6 @@ DOMAIN,im-x.jd.com
 DOMAIN,images.pinduoduo.com
 DOMAIN,img-x.jd.com
 DOMAIN,img.gamecenter.qq.com
-DOMAIN,img2.360buyimg.com
 DOMAIN,info.zb.qq.com
 DOMAIN,integralwall.baidu.com
 DOMAIN,ios.bugly.qq.com
@@ -137,6 +145,7 @@ DOMAIN,ipm.atm.youku.com
 DOMAIN,ir-sdk.dun.163.com
 DOMAIN,ir-sdk.dun.163yun.com
 DOMAIN,janapi.jd.com
+DOMAIN,jiguang.coc.10086.cn
 DOMAIN,jpushjd.m.jd.com
 DOMAIN,jpushsc.m.jd.com
 DOMAIN,kde.qq.com
@@ -148,12 +157,14 @@ DOMAIN,log-stats.weathercn.com
 DOMAIN,log-verify.dutils.com
 DOMAIN,log-verify.mob.com
 DOMAIN,log.snssdk.com
+DOMAIN,logs.amap.com
 DOMAIN,luimg.baidu.com
 DOMAIN,m-adnet.dutils.com
 DOMAIN,m-adnet.hiaiabc.com
 DOMAIN,m-mpl.hiaiabc.com
 DOMAIN,mars.jd.com
 DOMAIN,mbd.wshifen.com
+DOMAIN,mgsv.miguvideo.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,mkt.wtzw.com
 DOMAIN,mllog.jd.com
@@ -183,6 +194,7 @@ DOMAIN,photovideo-circle.photo.qq.com
 DOMAIN,pic8.iqiyipic.com
 DOMAIN,prewxacode.wxqcloud.qq.com.cn
 DOMAIN,pull.yximgs.com
+DOMAIN,push.it.10086.cn
 DOMAIN,pv.sohu.com
 DOMAIN,qm-ab.wtzw.com
 DOMAIN,qzs.gdtimg.com
@@ -221,10 +233,13 @@ DOMAIN,ts.amap.com
 DOMAIN,ulog-sdk.gifshow.com
 DOMAIN,unet.quark.cn
 DOMAIN,union.baidu.com
+DOMAIN,upc.flysleep.cn
+DOMAIN,upc.zztfly.com
 DOMAIN,update.wtzw.com
 DOMAIN,uranus.jd.com
 DOMAIN,uve.weibo.com
 DOMAIN,v.gdt.qq.com
+DOMAIN,v.miguvideo.com
 DOMAIN,v2mi.gdt.qq.com
 DOMAIN,v4-lm.adukwai.com
 DOMAIN,vas-lf-x.snssdk.com
@@ -681,7 +696,6 @@ DOMAIN-SUFFIX,3600.com
 DOMAIN-SUFFIX,360114.xyz
 DOMAIN-SUFFIX,360640.com
 DOMAIN-SUFFIX,360baidus.com
-DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,360jiaquan.com
 DOMAIN-SUFFIX,360kuai.com
 DOMAIN-SUFFIX,360mixup.com
