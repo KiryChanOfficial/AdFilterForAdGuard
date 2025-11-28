@@ -1928,7 +1928,6 @@
 ||*.bt66.tv^
 ||*.by6.app^
 ||*.cdnhwc22.com^
-||*.chat.bilibili.com
 ||*.cmgadx.com^
 ||*.cyfupnq.com^
 ||*.diwodiwo.xyz^
@@ -9547,7 +9546,6 @@
 ||bridgetnbe.com^
 ||brizads.com^
 ||bro.flyme.cn^
-||broadcast.chat.bilibili.com^
 ||broker.mqtt.pandora.xiaomi.com^
 ||bronrt.stsdk.vivo.com.cn^
 ||brort.stsdk.vivo.com.cn^
@@ -14407,7 +14405,6 @@
 ||gaodunwangxiao.com^
 ||gaokao-api.study163.com^
 ||gaomingbo.com^
-||gaoneng.bilibili.com^
 ||gaotu.cn^
 ||gaotuxueyuan.com^
 ||gaoyuhu.top^
