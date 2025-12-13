@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告，目前已覆盖极光推送服务、腾讯崩溃日志分析平台、OPPO/VIVO/小米在部分界面提供的广告、部分App内的某些广告以及一些常见的广告联盟。由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生。  
-! Version: 20251101P  
+! Version: 20251201P  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2025-11-24T23:43:00+08:00  
+! Last modified: 2025-12-13T22:20:00+08:00  
 
 ! Whitelist  
 @@||*.a.yximgs.com^
@@ -8231,8 +8231,6 @@
 ||apm-log-upload-os.hoyoverse.com^
 ||apm-rum.inf.miui.com^
 ||apm-track.xiaohongshu.com^
-||apm.app.coc.10086.cn^
-||apm.clientaccess.10086.cn^
 ||apm.gotokeep.com^
 ||apm.hexin.cn^
 ||apm.suning.cn^
@@ -17284,7 +17282,6 @@
 ||jifen.cnzz.com^
 ||jifyelda.top^
 ||jiguang.cn^
-||jiguang.coc.10086.cn^
 ||jihehuaban.com.cn^
 ||jihehuaban.com^
 ||jihq.mm51-tbsg1542.cc^
@@ -23078,7 +23075,6 @@
 ||push.feng.com^
 ||push.gifshow.com^
 ||push.hexin.cn^
-||push.it.10086.cn^
 ||push.ksapisrv.com^
 ||push.m.youku.com^
 ||push.mob.com^
@@ -25322,7 +25318,6 @@
 ||show-s.mediav.com^
 ||show.3.mediav.com^
 ||show.aklm.cc^
-||show.bilibili.com^
 ||show.buzzcity.net^
 ||show.g.mediav.com^
 ||show.kc.taotaosou.com^

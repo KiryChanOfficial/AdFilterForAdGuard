@@ -52,8 +52,6 @@ DOMAIN,api.miguvideo.com
 DOMAIN,api.touch-mobile.baidu.com
 DOMAIN,api.touch-moblie.com
 DOMAIN,api.verify.mob.com
-DOMAIN,apm.app.coc.10086.cn
-DOMAIN,apm.clientaccess.10086.cn
 DOMAIN,apmplus.volces.com
 DOMAIN,appcfg.v.qq.com
 DOMAIN,appstoreort-stsdk.vivo.com.cn
@@ -144,7 +142,6 @@ DOMAIN,ipm.atm.youku.com
 DOMAIN,ir-sdk.dun.163.com
 DOMAIN,ir-sdk.dun.163yun.com
 DOMAIN,janapi.jd.com
-DOMAIN,jiguang.coc.10086.cn
 DOMAIN,jpushjd.m.jd.com
 DOMAIN,jpushsc.m.jd.com
 DOMAIN,kde.qq.com
@@ -193,7 +190,6 @@ DOMAIN,photovideo-circle.photo.qq.com
 DOMAIN,pic8.iqiyipic.com
 DOMAIN,prewxacode.wxqcloud.qq.com.cn
 DOMAIN,pull.yximgs.com
-DOMAIN,push.it.10086.cn
 DOMAIN,pv.sohu.com
 DOMAIN,qm-ab.wtzw.com
 DOMAIN,qzs.gdtimg.com
@@ -209,7 +205,6 @@ DOMAIN,sdk.open.phone.igexin.com
 DOMAIN,sdkfp.jd.com
 DOMAIN,sdkoptedge.chinanetcenter.com
 DOMAIN,sdktmp.hubcloud.com.cn
-DOMAIN,show.bilibili.com
 DOMAIN,snowflake.qq.com
 DOMAIN,sp0.baidu.com
 DOMAIN,ssp.vivo.com.cn
@@ -4674,6 +4669,7 @@ DOMAIN-SUFFIX,jp88.cc
 DOMAIN-SUFFIX,jpayu6di.icu
 DOMAIN-SUFFIX,jpqed.xyz
 DOMAIN-SUFFIX,jpush-ipv6.cn
+DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jpush0b.xyz
