@@ -2,17 +2,20 @@
 
 > 　　这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告，。由于此规则由个人维护且以个人使用为目的，所以可能有误拦截的情况发生，目前已加入Quantumult X懒人规则。  注意，这里提供的规则不一定适用于所有人。
 
+## 订阅链接  
+- 适用于``AdGuard``的订阅规则  
+`https://ad.kirychan.com/KR_DNS_Filter.txt`  
+- 适用于``Quantumult X``订阅规则  
+`https://ad.kirychan.com/QuantunultX.conf`  
+- ``GEOIP``订阅地址（适用于 Quantumult X）  
+`https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb`  
+
+## 友情链接  
 - [GitHub仓库](https://github.com/KiryChanOfficial/AdFilterForAdGuard)  
 - [AdGuard官网](https://adguard.com/)  
-
-## 订阅链接  
-`https://ad.kirychan.com/KR_DNS_Filter.txt`  
-
-## Quantumult X 订阅规则（测试）  
-`https://ad.kirychan.com/QuantunultX.conf`  
-
-## 重要通知  
-1. 部分规则收集自其他Github仓库并进行去重等操作，请酌情使用，仓库信息如下。  
+- [Quantunult X](https://apps.apple.com/us/app/id1443988620)  
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
+- 部分AdGuard规则收集自以下仓库并进行去重等操作，请酌情使用。  
     > [AWAvenue 秋风广告规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)  
     > [不是DD啊](https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt)  
     > [大萌主](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)  
@@ -21,13 +24,10 @@
     > [下个ID见](https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts)  
     > [那个谁520](https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)  
 
-## 已知问题  
-- 目前已发现以下问题，如有以下需要请临时关闭此规则列表或AdGuard。  
-    > 1. 部分app在使用此规则首次打开时可能会功能异常，请禁用此规则或关闭重新进入app等几秒再打开拦截并重新进入app即可。
-
 ## 更新记录：  
 - 2025.12  
     > 1. 更新部分规则已解决部分页面无法访问的情况。  
+	> 2. 添加GEO IP开源更新数据  
 
 - 2025.11  
     > 1. 更新了Quantumult X规则，并将其规则整合至ADGuard规则。  
