@@ -1,6 +1,7 @@
 # 第2顺位
 # 阻断所有连接
 # 黑名单
+
 DOMAIN,a.ac.qq.com
 DOMAIN,a.qchannel03.cn
 DOMAIN,a.yximgs.com
@@ -100,7 +101,6 @@ DOMAIN,dmugc-cn.domobcdn.com
 DOMAIN,dnlog.cmpassport.com
 DOMAIN,drs.wtzw.com
 DOMAIN,dsp-x.jd.com
-DOMAIN,dspsdk.pinduoduo.com
 DOMAIN,dualstack-logs.amap.com
 DOMAIN,e.kuaishou.com
 DOMAIN,e.mi.com
@@ -131,7 +131,6 @@ DOMAIN,httpdns.bcelive.com
 DOMAIN,hubcloud.com.cn
 DOMAIN,ibrowser.feeds.heytapmobi.com
 DOMAIN,im-x.jd.com
-DOMAIN,images.pinduoduo.com
 DOMAIN,img-x.jd.com
 DOMAIN,img.gamecenter.qq.com
 DOMAIN,info.zb.qq.com
@@ -216,7 +215,6 @@ DOMAIN,stats.jpush.cn
 DOMAIN,status-ipv6.jpush.cn
 DOMAIN,sysdk.cl2009.com
 DOMAIN,t-cfg.wtzw.com
-DOMAIN,t-dsp.pinduoduo.com
 DOMAIN,tdid.m.qq.com
 DOMAIN,tieba-ares.cdn.bcebos.com
 DOMAIN,tobapplog.volceapplog.com
@@ -4670,7 +4668,6 @@ DOMAIN-SUFFIX,jpayu6di.icu
 DOMAIN-SUFFIX,jpqed.xyz
 DOMAIN-SUFFIX,jpush-ipv6.cn
 DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jpush0b.xyz
 DOMAIN-SUFFIX,jpushoa.com
@@ -6212,8 +6209,6 @@ DOMAIN-SUFFIX,picsinfog.com
 DOMAIN-SUFFIX,picturesquefilms.net
 DOMAIN-SUFFIX,piggy.xyz
 DOMAIN-SUFFIX,pikacn.com
-DOMAIN-SUFFIX,pinduoduo.cn
-DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,pingdom.net
 DOMAIN-SUFFIX,pinglun11223.xyz
