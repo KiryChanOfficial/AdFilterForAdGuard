@@ -38,6 +38,7 @@ DOMAIN,ali-stats.jpush.cn
 DOMAIN,als.baidu.com
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,amdc.m.taobao.com
+DOMAIN,app-analytics-services.com
 DOMAIN,anti-sdk-css-pre.m.jd.com
 DOMAIN,anti-sdk-report.m.jd.com
 DOMAIN,api-adx.52qumao.com
@@ -216,7 +217,6 @@ DOMAIN,tdid.m.qq.com
 DOMAIN,tieba-ares.cdn.bcebos.com
 DOMAIN,tobapplog.volceapplog.com
 DOMAIN,toblog.volceapplog.com
-DOMAIN,token.safebrowsing.apple, proxy
 DOMAIN,tr.byteurl.cn
 DOMAIN,ts.amap.com
 DOMAIN,ulog-sdk.gifshow.com
@@ -233,7 +233,6 @@ DOMAIN,v2mi.gdt.qq.com
 DOMAIN,v4-lm.adukwai.com
 DOMAIN,vas-lf-x.snssdk.com
 DOMAIN,vv.video.qq.com
-DOMAIN,vweixinthumb.tc.qq.com
 DOMAIN,w1.kskwai.com
 DOMAIN,wcp.taobao.com
 DOMAIN,webcast-open.douyin.com
@@ -3395,6 +3394,8 @@ DOMAIN-SUFFIX,fi11av39.com
 DOMAIN-SUFFIX,fifay.cn
 DOMAIN-SUFFIX,fiktvlnc.icu
 DOMAIN-SUFFIX,fillhr.xyz
+DOMAIN-SUFFIX,finderbk.video.qq.com
+DOMAIN-SUFFIX,finderv1.video.qq.com
 DOMAIN-SUFFIX,findicons.com
 DOMAIN-SUFFIX,finead.cn
 DOMAIN-SUFFIX,fintechpi.com

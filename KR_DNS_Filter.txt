@@ -1220,7 +1220,6 @@
 @@||payapp.weixin.qq.com^
 @@||paydns.wechatpay.cn^
 @@||pbaccess.video.qq.com^
-@@||pbs.twimg.com^
 @@||pcvideoaliyun.titan.mgtv.com^
 @@||pda.jd.com^
 @@||pdc.micloud.xiaomi.net^
@@ -4220,7 +4219,6 @@
 ||51-tour.net^
 ||51.com^
 ||51.la^
-||51.wxapp.tc.qq.com^
 ||510tl.com^
 ||5125129.com^
 ||513hch.com^

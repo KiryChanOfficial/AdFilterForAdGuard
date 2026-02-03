@@ -1,6 +1,7 @@
 # AI服务
 # 定向到US节点
 # 第1顺位
+
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
