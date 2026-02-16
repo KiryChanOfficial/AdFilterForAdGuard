@@ -2,6 +2,7 @@
 # 黑名单
 
 HOST-WILDCARD,*.tpns.tencent.com
+HOST-WILDCARD,*.gdt.qq.com
 HOST,adashbc.ut.taobao.com
 HOST,adashx.ut.amap.com
 HOST,adashxgc.ut.taobao.com
@@ -31,8 +32,6 @@ HOST,bdsp.x.jd.com
 HOST,blackhole.m.jd.com
 HOST,c-nfa.jd.com
 HOST,c.fa.jd.com
-HOST,c3.gdt.qq.com
-HOST,canvas-cdn.gdt.qq.com
 HOST,cc.m.jd.com
 HOST,ccc-x.jd.com
 HOST,ccc.x.jd.com
@@ -66,9 +65,7 @@ HOST,httpdns.bcelive.com
 HOST,images.pinduoduo.com
 HOST,img-x.jd.com
 HOST,ios.bugly.qq.com
-HOST,ipv4.gdt.qq.com
 HOST,ipv4only.arpa
-HOST,ipv6.gdt.qq.com
 HOST,ir-sdk.dun.163.com
 HOST,janapi.jd.com
 HOST,jcm.jd.com
@@ -91,7 +88,6 @@ HOST,logs.amap.com
 HOST,luimg.baidu.com
 HOST,mazu.m.qq.com
 HOST,mercury.jd.com
-HOST,mi.gdt.qq.com
 HOST,mktm.jd.com
 HOST,mllog.jd.com
 HOST,mobads.baidu.com
@@ -118,7 +114,6 @@ HOST,re.m.jd.com
 HOST,render-prod-backup-tile.amap.com
 HOST,resolver.msg.xiaomi.net
 HOST,risk-fp-openapi.vivo.com.cn
-HOST,rpt.gdt.qq.com
 HOST,s.peplle.cn
 HOST,sdk-ab-config.aiclk.com
 HOST,sdk-config.tanx.com
@@ -133,7 +128,6 @@ HOST,skdisplay.jd.com
 HOST,smartopen.jd.com
 HOST,ssp.vivo.com.cn
 HOST,stat.m.jd.com
-HOST,t.gdt.qq.com
 HOST,t2.fancyapi.com
 HOST,tcd-log.m.jd.com
 HOST,tnc0-alisc1.zijieapi.com
@@ -146,11 +140,7 @@ HOST,union.m.jd.com
 HOST,update0.aiclk.com
 HOST,uranus.jd.com
 HOST,userlink.alicdn.com
-HOST,v.gdt.qq.com
-HOST,v2mi.gdt.qq.com
-HOST,v3.gdt.qq.com
 HOST,vcs.zijieapi.com
-HOST,win.gdt.qq.com
 HOST,wn.pos.baidu.com
 HOST,wn.x.jd.com
 HOST,x.jd.com

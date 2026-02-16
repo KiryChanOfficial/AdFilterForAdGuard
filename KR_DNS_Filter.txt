@@ -7,6 +7,8 @@
 
 ||0kkkkkt.com^
 ||*.tpns.tencent.com^
+||*.gdt.qq.com^
+||access1.tpns.tencent.com^
 ||adashbc.ut.taobao.com^
 ||adashx.ut.amap.com^
 ||adashxgc.ut.taobao.com^
@@ -41,8 +43,6 @@
 ||blackhole.m.jd.com^
 ||c-nfa.jd.com^
 ||c.fa.jd.com^
-||c3.gdt.qq.com^
-||canvas-cdn.gdt.qq.com^
 ||cc.m.jd.com^
 ||ccc-x.jd.com^
 ||ccc.x.jd.com^
@@ -88,9 +88,7 @@
 ||in-addr.arpa^
 ||ios.bugly.qq.com^
 ||ip6.arpa^
-||ipv4.gdt.qq.com^
 ||ipv4only.arpa^
-||ipv6.gdt.qq.com^
 ||ir-sdk.dun.163.com^
 ||ixigua.com^
 ||janapi.jd.com^
@@ -115,7 +113,6 @@
 ||luimg.baidu.com^
 ||mazu.m.qq.com^
 ||mercury.jd.com^
-||mi.gdt.qq.com^
 ||mktm.jd.com^
 ||mllog.jd.com^
 ||mobads.baidu.com^
@@ -148,7 +145,6 @@
 ||render-prod-backup-tile.amap.com^
 ||resolver.msg.xiaomi.net^
 ||risk-fp-openapi.vivo.com.cn^
-||rpt.gdt.qq.com^
 ||s.peplle.cn^
 ||sdk-ab-config.aiclk.com^
 ||sdk-config.tanx.com^
@@ -166,7 +162,6 @@
 ||ssp.vivo.com.cn^
 ||stat.m.jd.com^
 ||statisticslinks.com^
-||t.gdt.qq.com^
 ||t2.fancyapi.com^
 ||tcd-log.m.jd.com^
 ||tfogc.com^
@@ -184,13 +179,9 @@
 ||update0.aiclk.com^
 ||uranus.jd.com^
 ||userlink.alicdn.com^
-||v.gdt.qq.com^
-||v2mi.gdt.qq.com^
-||v3.gdt.qq.com^
 ||vcs.zijieapi.com^
 ||vegslb.com^
 ||vlion.cn^
-||win.gdt.qq.com^
 ||wn.pos.baidu.com^
 ||wn.x.jd.com^
 ||x.jd.com^
