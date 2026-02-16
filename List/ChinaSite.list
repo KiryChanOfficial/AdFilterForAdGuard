@@ -1,6 +1,6 @@
 # 直连修正
 # 对国内域名进行过滤
-# 第3顺位
+
 DOMAIN-SUFFIX,bh3.com
 DOMAIN-SUFFIX,bhsr.com
 DOMAIN-SUFFIX,juequling.com
