@@ -1,11 +1,11 @@
 # 直连修正
 # 对国内域名进行过滤
 
-DOMAIN-SUFFIX,bh3.com
-DOMAIN-SUFFIX,bhsr.com
-DOMAIN-SUFFIX,juequling.com
-DOMAIN-SUFFIX,mihoyo.com
-DOMAIN-SUFFIX,yuanshen.com
+HOST-SUFFIX,bh3.com
+HOST-SUFFIX,bhsr.com
+HOST-SUFFIX,juequling.com
+HOST-SUFFIX,mihoyo.com
+HOST-SUFFIX,yuanshen.com
 GEOIP,CN
 IP-CIDR,101.32.104.104/32,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve

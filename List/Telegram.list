@@ -1,21 +1,21 @@
 # Telegram
 # 将Telegram定向到SG、JP节点加快访问
 
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
+HOST-SUFFIX,cdn-telegram.org
+HOST-SUFFIX,comments.app
+HOST-SUFFIX,graph.org
+HOST-SUFFIX,legra.ph
+HOST-SUFFIX,quiz.directory
+HOST-SUFFIX,t.me
+HOST-SUFFIX,tdesktop.com
+HOST-SUFFIX,telegra.ph
+HOST-SUFFIX,telegram.dog
+HOST-SUFFIX,telegram.me
+HOST-SUFFIX,telegram.org
+HOST-SUFFIX,telegram.space
+HOST-SUFFIX,telegram-cdn.org
+HOST-SUFFIX,telesco.pe
+HOST-SUFFIX,tg.dev
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
