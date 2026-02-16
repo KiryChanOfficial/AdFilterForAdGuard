@@ -1,6 +1,6 @@
 # Telegram
 # 将Telegram定向到SG、JP节点加快访问
-# 第4顺位
+
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
