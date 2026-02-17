@@ -1,9 +1,9 @@
 !
 ! Title: Ad Filter For AdGuard  
 ! Description: 这是一个适用于AdGuard的广告拦截规则，配合官方拦截规则能有效阻止绝大部分中国互联网的广告，仅供个人使用。  
-! Version: 20260216  
+! Version: 20260217  
 ! Homepage: https://ad.kirychan.com  
-! Last modified: 2026-2-16T23:25:00+08:00 
+! Last modified: 2026-2-17T22:01:00+08:00 
 
 ! Whitelist  
 @@||*.a.yximgs.com^
@@ -70,7 +70,6 @@
 @@||act.zhuanzhuan.com^
 @@||active.jd.com^
 @@||activity.browser.intl.miui.com^
-@@||activity.hdslb.com^
 @@||activity.tuiapple.com^
 @@||activity.youku.com^
 @@||acts.qidian.com^
@@ -90,7 +89,6 @@
 @@||aikanlive.miguvideo.com^
 @@||aikanvod.miguvideo.com^
 @@||aisite.wejianzhan.com^
-@@||aisubtitle.hdslb.com^
 @@||aizhan.com^
 @@||akamaized.net^
 @@||ali-gamezone.static.yximgs.com^
@@ -475,7 +473,6 @@
 @@||disp-qryapi.3g.qq.com^
 @@||dj.1688.com^
 @@||dl.360safe.com^
-@@||dl.hdslb.com^
 @@||dl.reg.163.com^
 @@||dldir1.qq.com^
 @@||dldir3.qq.com^
@@ -711,9 +708,6 @@
 @@||i.tantanapp.com^
 @@||i.tianqi.com^
 @@||i.ytimg.com^
-@@||i0.hdslb.com^
-@@||i1.hdslb.com^
-@@||i2.hdslb.com^
 @@||i2.y.qq.com^
 @@||i72.lanzoug.com^
 @@||i82.lanzoug.com^
@@ -1363,10 +1357,8 @@
 @@||s.ssl.qhres2.com^
 @@||s0.2mdn.net^
 @@||s0.meituan.net^
-@@||s1.hdslb.com^
 @@||s1.kskwai.com^
 @@||s1.meituan.net^
-@@||s2.hdslb.com^
 @@||s2.ssl.qhres2.com^
 @@||s3.meituan.net^
 @@||s3.pstatp.com^
@@ -1472,7 +1464,6 @@
 @@||static.ali213.net^
 @@||static.biligame.com^
 @@||static.e.189.cn^
-@@||static.hdslb.com^
 @@||static.iask.cn^
 @@||static.iqiyi.com^
 @@||static.qiyi.com^
@@ -6420,7 +6411,6 @@
 ||g.fancyapi.com^
 ||gdfp.gifshow.com^
 ||gias.jd.com^
-||hdslb.com^
 ||httpdns.bcelive.com^
 ||id6.me^
 ||images.pinduoduo.com^
