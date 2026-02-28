@@ -1,6 +1,12 @@
 # 阻断所有连接
 # 黑名单
 
+HOST,log.snssdk.com
+HOST,gdfp.gifshow.com
+HOST,bes-mtj.baidu.com
+HOST,jiuyue919.com
+HOST,toblog.ctobsnssdk.com
+HOST,puata.info
 HOST,a.ac.qq.com
 HOST,a.qchannel03.cn
 HOST,a.yximgs.com
@@ -178,6 +184,7 @@ HOST,jpushjd.m.jd.com
 HOST,jpushsc.m.jd.com
 HOST,jrad.jd.com
 HOST,jrclick.jd.com
+HOST,log.snssdk.com
 HOST,jzt.jd.com
 HOST,kde.qq.com
 HOST,kepler.jd.com
@@ -6248,7 +6255,6 @@ HOST-SUFFIX,pchznf.xyz
 HOST-SUFFIX,pcmzn.com
 HOST-SUFFIX,pcqsajr.icu
 HOST-SUFFIX,pcvzpj.xyz
-HOST-SUFFIX,pddpic.com
 HOST-SUFFIX,pddugc.com
 HOST-SUFFIX,pdfexpert.cc
 HOST-SUFFIX,pdhhmf.cn
@@ -7132,7 +7138,6 @@ HOST-SUFFIX,snapads.com
 HOST-SUFFIX,snapmobileasia.net
 HOST-SUFFIX,snnnyy.com
 HOST-SUFFIX,snow001.com
-HOST-SUFFIX,snssdk.com
 HOST-SUFFIX,so9l.com
 HOST-SUFFIX,soarfi.cn
 HOST-SUFFIX,sobakenchmaphk.com
