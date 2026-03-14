@@ -6,6 +6,10 @@ HOST-SUFFIX,bhsr.com
 HOST-SUFFIX,juequling.com
 HOST-SUFFIX,mihoyo.com
 HOST-SUFFIX,yuanshen.com
+HOST,gaode-acs.m.taobao.com
+HOST,awaken.amap.com
+HOST,token.safebrowsing.apple
+HOST,base.hjq.komect.com
 GEOIP,CN
 IP-CIDR,101.32.104.104/32,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve
