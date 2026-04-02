@@ -1,15 +1,17 @@
-# 直连修正
 # 对国内域名进行过滤
+# 直连修正
 
-HOST-SUFFIX,bh3.com
-HOST-SUFFIX,bhsr.com
 HOST-SUFFIX,juequling.com
 HOST-SUFFIX,mihoyo.com
 HOST-SUFFIX,yuanshen.com
+HOST-SUFFIX,me.com
+HOST-SUFFIX,hotmail.com
 HOST,gaode-acs.m.taobao.com
-HOST,awaken.amap.com
+HOST-SUFFIX,HOST,awaken.amap.com
 HOST,token.safebrowsing.apple
 HOST,base.hjq.komect.com
+HOST,imap.gmail.com
+HOST,smtp.gmail.com
 GEOIP,CN
 IP-CIDR,101.32.104.104/32,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve

@@ -19,6 +19,9 @@
 - [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 ## 更新记录：  
+- 2026.04  
+    > 4.2 更新了大量内容，可能造成某些问题。  
+
 - 2026.03  
     > 3.14 更新了大量内容，可能造成某些问题。  
 
