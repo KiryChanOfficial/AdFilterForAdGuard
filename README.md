@@ -3,7 +3,7 @@
 > 　　规则适用于 **AdGuard** 和 **Quantumult X** ，首次创建于2024年10月，期间经历多次更新，目前已于2026年2月16日推倒重构，目前仅供个人使用。  
 
 ## 订阅链接  
-- 适用于``AdGuard``的订阅规则  
+- 适用于``AdGuard``的订阅规则（停止维护）  
 `https://ad.kirychan.com/KR_DNS_Filter.txt`  
   
 - 适用于``Quantumult X``订阅规则  
@@ -19,6 +19,10 @@
 - [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 ## 更新记录：  
+- 2026.06  
+    > 6.18 更新了Quantumult X规则，另外已将所有google服务定向至AI服务分流规则。  
+	> 6.18 AdGuard规则目前已停止维护。  
+
 - 2026.04  
     > 4.2 更新了大量内容，可能造成某些问题。  
 

@@ -1,6 +1,7 @@
 # AI服务
 # 定向到US节点
 
+HOST-KEYWORD,google
 HOST,ai.google.dev
 HOST,aistudio.google.com
 HOST,alkalicore-pa.clients6.google.com
@@ -59,5 +60,7 @@ HOST-SUFFIX,perplexity.ai
 HOST-SUFFIX,pplx.ai
 HOST-SUFFIX,sora.com
 HOST-SUFFIX,x.ai
+HOST,push.clients6.google.com
+HOST-SUFFIX,googleapis.com
 HOST-WILDCARD,*.smoot.apple.com
 HOST-WILDCARD,api-*.smoot.apple.com

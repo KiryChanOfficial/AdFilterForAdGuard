@@ -7,11 +7,19 @@ HOST-SUFFIX,yuanshen.com
 HOST-SUFFIX,me.com
 HOST-SUFFIX,hotmail.com
 HOST,gaode-acs.m.taobao.com
-HOST-SUFFIX,HOST,awaken.amap.com
+HOST,awaken.amap.com
 HOST,token.safebrowsing.apple
 HOST,base.hjq.komect.com
 HOST,imap.gmail.com
 HOST,smtp.gmail.com
+HOST,time.apple.com
+HOST-SUFFIX, api.tmtsub.cc
+HOST,catdot.dianping.com
+HOST,dreport.meituan.net
+HOST-SUFFIX,idenfy.com
+HOST-SUFFIX,saily.com
+HOST-SUFFIX,braze.com
+HOST-SUFFIX,ondemandconnectivity.com
 GEOIP,CN
 IP-CIDR,101.32.104.104/32,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve
