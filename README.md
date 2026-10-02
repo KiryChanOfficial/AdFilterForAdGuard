@@ -19,6 +19,10 @@
 - [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 ## 更新记录：  
+- 2026.10  
+    > 10.02 解决了抖音不显示视频封面和头像的问题    
+	> 10.02 将 `Final` 规则定向至 `GlobalNetwork` 节点策略。  
+
 - 2026.06  
     > 6.18 更新了Quantumult X规则，另外已将所有google服务定向至AI服务分流规则。  
 	> 6.18 AdGuard规则目前已停止维护。  
